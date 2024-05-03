@@ -236,7 +236,7 @@ h6 {
     width: 16%;
     position: absolute;
     text-decoration: none;
-    top: 60%;
+    top: 63%;
     border-radius: 30px;
 }
 
@@ -342,38 +342,9 @@ h6 {
     right: 15%;
 }
 
-#rectangle5 {
-    width: 9%;
-    position: absolute;
-    top: 190%;
-    opacity: 75%;
-    left: 3%;
-    z-index: 1;
-}
-
-#rectangle6 {
-    width: 10%;
-    position: absolute;
-    top: 215%;
-    opacity: 75%;
-    right: 10%;
-    z-index: 1;
-}
-
-
-#rectangle7 {
-    width: 7%;
-    position: absolute;
-    top: 245%;
-    opacity: 75%;
-    left: 35%;
-    z-index: 1;
-}
-
 #circle_text {
     width: 24%;
     position: absolute;
     top: 10%;
     left: 38.5%;
 }
-
