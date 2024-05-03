@@ -370,3 +370,10 @@ h6 {
     z-index: 1;
 }
 
+#circle_text {
+    width: 24%;
+    position: absolute;
+    top: 10%;
+    left: 38.5%;
+}
+
