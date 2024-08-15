@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<head>
+    <title>chloe russell - about</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://use.typekit.net/dhm2zpc.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" width="device-width" />
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js" integrity="sha512-jEnuDt6jfecCjthQAJ+ed0MTVA++5ZKmlUcmDGBv2vUI/REn6FuIdixLNnQT+vKusE2hhTk2is3cFvv5wA+Sgg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js"></script>
+</head>
+<body>
+    <nav class="no_motion">
+        <a href="index.html" class="click_cursor"><img id="nav_logo" src="images/primaryLogo_orange-01.png"></a>
+        <div id="nav_space"></div>
+        <ul id="nav_list">
+            <li><a id="nav_button" href="portfolio.html" class="click_cursor">work</a></li>
+            <li><a id="nav_button" href="resume.html" class="click_cursor">resume</a></li>
+            <li><a id="nav_button" href="about.html" class="click_cursor">about</a></li>
+        </ul>
+        <a class="mobile_only"><img src="images/hamburger_menu.png" id="hamburger_icon"></a>
+    </nav>
+    <div class="about_columns">
+    <div class="about_column">
+    <div id="about_img_container">
+        <img id="about_img" src="images/me_circle.png">
+    </div>
+    </div>
+    <div class="about_column">
+    <div id="about_blurb">
+        <h3>hello!</h3>
+        <p>I'm Chloe Russell, and I've been in love with both the internet and visual art as long as I can remember. In pursuing both graphic design and web development at the University of Northern Iowa, I have found a way to combine my two passions. Outside of design, I paint, play video games, and learn new instruments.</p>
+        <div id="about_buttons">
+            <a id="linkedin_button" class="about_button click_cursor" href="https://www.linkedin.com/in/chloe-russell-466384260/" target="_blank"> <img id="linkedin_logo" src="images/linkedin_logo.png"></a>
+            <a id="about_portfolio_button" href="portfolio.html" class="about_button click_cursor">my work</a>
+        </div>
+    </div>
+    </div>
+</div>
+    <div id="tutorial_message_section">
+        <div class="tutorial_message_container">
+            <div class="tutorial_indicator">
+                <span class="dot click_cursor" id="pinkdot"></span>
+                <span class="dot click_cursor" id="orangedot"></span>
+                <span class="dot click_cursor" id="greendot"></span>
+                <span class="dot click_cursor" id="bluedot"></span>
+            </div>
+        </div>
+        <div class="tutorial_text_scroll">
+            <div class="tutorial_text_section" id="pinkText">
+                <h3 class="did_you_know">did you know?</h3>
+                <p class="tutorial_text">
+                i performed in marching band for nine seasons, from seventh grade up until graduating college. 
+            </p>
+            </div>
+            <div class="tutorial_text_section" id="orangeText">
+                <h3 class="did_you_know">did you know?</h3>
+                <p class="tutorial_text" id="orangeText">
+                i've dyed my hair every color of the rainbow, and i'm now trying to do as many color combinations as possible before it gets fried off from the bleach.
+            </p>
+            </div>
+            <div class="tutorial_text_section" id="greenText">
+                <h3 class="did_you_know">did you know?</h3>
+                <p class="tutorial_text" id="greenText">
+                i only know how to edit video because i minored in film for one semester. (i pivoted to do websites instead, but i still like working on videos sometimes.)
+                </p>
+            </div>
+        <div class="tutorial_text_section" id="blueText">
+            <h3 class="did_you_know">did you know?</h3>
+            <p class="tutorial_text" id="blueText">
+                i'm pretty good at recognizing fonts, which is not that useful, but still fun!
+            </p>
+        </div>
+    </div>
+    </div>
+    <footer>
+        <div id="footer_line_one">
+        <a href="index.html" id="footer_logo_link" class="click_cursor"> <img id="footer_logo" src="images/primaryLogo_white.png"> </a>
+        <div class="divider" id="footer_div"></div>
+        </div>
+        <div id="footer_nav_container">
+            <div id="footer_div_2" class="divider"></div>
+            <ul id="footer_nav">
+                <li><a id="footer_button" href="portfolio.html" class="click_cursor">work</a></li>
+                <li><a id="footer_button" href="resume.html" class="click_cursor">resume</a></li>
+                <li><a id="footer_button" href="about.html" class="click_cursor">about</a></li>
+            </ul>
+        </div>
+    </footer>
+    <div id="hamburger_menu" class="mobile_only">
+        <div class="hamburger_nav">
+            <img id="back_arrow" src="images/back_arrow-01.png">
+            <ul class="nav_button">
+                <li class="nav_button"><a href="index.html">home</a></li>
+                <li class="nav_button"><a href="portfolio.html">work</a></li>
+                <li class="nav_button"><a href="resume.html">resume</a></li>
+                <li class="nav_button"><a href="about.html">about</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+<script src="scripts.js"></script>
+<script>
+
+
+    var allDots = document.querySelectorAll(".dot");
+
+    var pinkDot = document.getElementById("pinkdot");
+
+    var orangeDot = document.getElementById("orangedot");
+
+    var greenDot = document.getElementById("greendot");
+
+    var blueDot = document.getElementById("bluedot");
+
+    var allText = document.querySelectorAll(".tutorial_text_section");
+
+    var pinkText = document.getElementById("pinkText");
+
+    var orangeText = document.getElementById("orangeText");
+
+    var greenText = document.getElementById("greenText");
+
+    var blueText = document.getElementById("blueText");
+
+    var didYouKnow = document.querySelectorAll(".did_you_know")
+
+    for (let index = 0; index < allText.length;) {
+                allText[index].style.display = "none";
+                index++; };
+    
+    pinkDot.style.width = "12vh"; pinkDot.style.backgroundColor = "#EF2B5A";
+
+    pinkText.style.display = "inline-block";
+
+    pinkDot.addEventListener("click", function() {
+        let targetDot = pinkDot;
+        if (targetDot.style.width = "4vh") {
+            for (let index = 0; index < allDots.length;) {
+                console.log(allDots[index]);
+                if (allDots[index].style.width === "4vh") {
+                    allDots[index].style.backgroundColor = "white";
+                    allDots[index].style.animation = "none";
+                }
+                if (allDots[index].style.width === "12vh") {
+                    allDots[index].style.animation = "dot_animation_reverse .75s ease";
+                    allDots[index].style.width = "4vh";
+                    allDots[index].style.backgroundColor = "white";
+                }
+                index++;
+            }
+            targetDot.style.width = "12vh"; targetDot.style.backgroundColor = "#EF2B5A"; targetDot.style.animation = "dot_animation .75s ease";
+            for (let index = 0; index < allText.length;) {
+                if (allText[index].style.display === "inline-block") {
+                    allText[index].style.animation = "fade_out 1s ease"
+                }
+                allText[index].style.display = "none";
+                index++;
+            }
+            pinkText.style.display = "inline-block";
+            pinkText.style.animation = "fade_in 1s ease";
+            for (let index = 0; index < didYouKnow.length;) {
+                didYouKnow[index].style.color = "#EF2B5A";
+                index++;
+            }
+            }});
+
+    orangeDot.addEventListener("click", function() {
+        let targetDot = orangeDot;
+        if (targetDot.style.width = "4vh") {
+            for (let index = 0; index < allDots.length;) {
+                console.log(allDots[index]);
+                if (allDots[index].style.width === "4vh") {
+                    allDots[index].style.backgroundColor = "white";
+                    allDots[index].style.animation = "none";
+                }
+                if (allDots[index].style.width === "12vh") {
+                    allDots[index].style.animation = "dot_animation_reverse .75s ease";
+                    allDots[index].style.width = "4vh";
+                    allDots[index].style.backgroundColor = "white";
+                }
+                index++;
+            }
+            targetDot.style.width = "12vh"; targetDot.style.backgroundColor = "#F6873A"; targetDot.style.animation = "dot_animation .75s ease"
+            for (let index = 0; index < allText.length;) {
+                allText[index].style.display = "none";
+                index++;
+            }
+            orangeText.style.animation = "fade_in 1s ease"
+            orangeText.style.display = "inline-block";
+            for (let index = 0; index < didYouKnow.length;) {
+                didYouKnow[index].style.color = "#F6873A";
+                index++;
+            }
+
+            }});
+    greenDot.addEventListener("click", function() {
+        let targetDot = greenDot;
+        if (targetDot.style.width = "4vh") {
+            for (let index = 0; index < allDots.length;) {
+                console.log(allDots[index]);
+                if (allDots[index].style.width === "4vh") {
+                    allDots[index].style.backgroundColor = "white";
+                    allDots[index].style.animation = "none";
+                }
+                if (allDots[index].style.width === "12vh") {
+                    allDots[index].style.animation = "dot_animation_reverse .75s ease";
+                    allDots[index].style.width = "4vh";
+                    allDots[index].style.backgroundColor = "white";
+                }
+                index++;
+            }
+            targetDot.style.width = "12vh"; targetDot.style.backgroundColor = "#20A06F"; targetDot.style.animation = "dot_animation .75s ease"
+            for (let index = 0; index < allText.length;) {
+                allText[index].style.display = "none";
+                index++;
+            }
+            greenText.style.display = "block";
+            greenText.style.animation = "fade_in 1s ease"
+            greenText.style.display = "inline-block";
+            for (let index = 0; index < didYouKnow.length;) {
+                didYouKnow[index].style.color = "#20A06F";
+                index++;
+            }
+            }});
+
+    blueDot.addEventListener("click", function() {
+        let targetDot = blueDot;
+        if (targetDot.style.width = "4vh") {
+            for (let index = 0; index < allDots.length;) {
+                console.log(allDots[index]);
+                if (allDots[index].style.width === "4vh") {
+                    allDots[index].style.backgroundColor = "white";
+                    allDots[index].style.animation = "none";
+                }
+                if (allDots[index].style.width === "12vh") {
+                    allDots[index].style.animation = "dot_animation_reverse .75s ease";
+                    allDots[index].style.width = "4vh";
+                    allDots[index].style.backgroundColor = "white";
+                }
+                index++;
+            }
+            targetDot.style.width = "12vh"; targetDot.style.backgroundColor = "#06135E"; targetDot.style.animation = "dot_animation .75s ease"
+            for (let index = 0; index < allText.length;) {
+                allText[index].style.display = "none";
+                index++;
+            }
+            blueText.style.display = "block";
+            blueText.style.animation = "fade_in 1s ease"
+            blueText.style.display = "inline-block";
+            for (let index = 0; index < didYouKnow.length;) {
+                didYouKnow[index].style.color = "#06135E";
+                index++;
+            }
+            }});
+
+</script>
+</html>

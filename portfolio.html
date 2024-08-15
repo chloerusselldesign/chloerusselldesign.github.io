@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<head>
+    <title>chloe russell - portfolio</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://use.typekit.net/dhm2zpc.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js" integrity="sha512-jEnuDt6jfecCjthQAJ+ed0MTVA++5ZKmlUcmDGBv2vUI/REn6FuIdixLNnQT+vKusE2hhTk2is3cFvv5wA+Sgg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <nav class="no_motion">
+        <a href="index.html" class="click_cursor"><img id="nav_logo" src="images/primaryLogo_orange-01.png"></a>
+        <div id="nav_space"></div>
+        <ul id="nav_list">
+            <li><a id="nav_button" href="portfolio.html" class="click_cursor">work</a></li>
+            <li><a id="nav_button" href="resume.html" class="click_cursor">resume</a></li>
+            <li><a id="nav_button" href="about.html" class="click_cursor">about</a></li>
+        </ul>
+        <a class="mobile_only"><img src="images/hamburger_menu.png" id="hamburger_icon"></a>
+    </nav>
+    <div id="portfolio_header">
+        <h1>my work</h1>
+    </div>
+    <div id="gallery">
+        <div class="column" id="col1">
+        <a href="cup_of_joe_project_page.html" class="gallery_link click_cursor" id="cup_of_joe_link">
+        <div class="gallery_item" id="cup_of_joe">
+            <div class="thumbnail_container" id="cup_of_joe_thumbnail"></div>
+            <div class="gallery_item_title">
+                <h3>cup of joe</h3>
+                <h5>rebranding and website design</h5>
+            </div>
+        </div>
+        </a>
+        <a href="introduction_project_page.html" class="gallery_link click_cursor" id="introduction_link">
+            <div class="gallery_item" id="introduction">
+                <div class="thumbnail_container" id="introduction_thumbnail"></div>
+                <div class="gallery_item_title" id="introduction_title">
+                    <h3>introduction</h3>
+                    <h5>motion graphics</h5>
+                </div>
+            </div>
+        </a>
+        </div>
+    <div class="column" id="col2">
+        <a href="hallowtyde_project_page.html" class="gallery_link click_cursor" id="hallowtyde_link">
+            <div class="gallery_item" id="hallowtyde">
+                <div class="thumbnail_container" id="hallowtyde_thumbnail"></div>
+                <div class="gallery_item_title" id="hallowtyde_title">
+                    <h3>hallowtyde</h3>
+                    <h5>brand concept, visual identity, and website design</h5>
+                </div>
+            </div>
+        </a>
+        <a href="uni_project_page.html" class="gallery_link click_cursor" id="uni_link">
+            <div class="gallery_item" id="uni">
+                <div class="thumbnail_container" ><img src="images/portfolio images/uni/uni_thumbnail.png" id="uni_thumbnail"></div>
+                <div class="gallery_item_title" id="uni_title">
+                    <h3>UNI</h3>
+                    <h5>print and digital graphics</h5>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="column" id="col3">
+        <a href="vinyl_cup_project_page.html" class="gallery_link click_cursor" id="vinyl_cup_link">
+            <div class="gallery_item" id="vinyl_cup">
+                <div class="thumbnail_container" id="vinyl_cup_thumbnail"></div>
+                <div class="gallery_item_title" id="vinyl_cup_title">
+                    <h3>vinyl cup</h3>
+                    <h5>rebranding and website design</h5>
+                </div>
+            </div>
+        </a>
+        <a href="lyric_video_project_page.html" class="gallery_link click_cursor" id="lyric_video_link">
+            <div class="gallery_item" id="lyric_video">
+                <div class="thumbnail_container" id="lyric_video_thumbnail"></div>
+                <div class="gallery_item_title" id="lyric_video_title">
+                    <h3>lyric video</h3>
+                    <h5>motion design</h5>
+                </div>
+            </div>
+        </a>
+    </div>
+    </div>
+    <footer>
+        <div id="footer_line_one">
+        <a href="index.html" id="footer_logo_link" class="click_cursor"> <img id="footer_logo" src="images/primaryLogo_white.png"> </a>
+        <div class="divider" id="footer_div"></div>
+        </div>
+        <div id="footer_nav_container">
+            <div id="footer_div_2" class="divider"></div>
+            <ul id="footer_nav">
+                <li><a id="footer_button" href="portfolio.html" class="click_cursor">work</a></li>
+                <li><a id="footer_button" href="resume.html" class="click_cursor">resume</a></li>
+                <li><a id="footer_button" href="about.html" class="click_cursor">about</a></li>
+            </ul>
+        </div>
+    </footer>
+    <div id="hamburger_menu" class="mobile_only">
+        <div class="hamburger_nav">
+            <img id="back_arrow" src="images/back_arrow-01.png">
+            <ul class="nav_button">
+                <li class="nav_button"><a href="index.html">home</a></li>
+                <li class="nav_button"><a href="portfolio.html">work</a></li>
+                <li class="nav_button"><a href="resume.html">resume</a></li>
+                <li class="nav_button"><a href="about.html">about</a></li>
+            </ul>
+        </div>
+    </div>
+    <script>
+        var animation = bodymovin.loadAnimation({
+        container: document.getElementById('cup_of_joe_thumbnail'),
+        path: 'cup_of_joe_thumbnail_animation.json',
+        renderer: 'svg',
+        loop: true,
+        autoplay: true,
+        name: "Cup of Joe Animation",
+        });
+
+        var animation = bodymovin.loadAnimation({
+        container: document.getElementById('hallowtyde_thumbnail'),
+        path: 'hallowtyde_thumbnail_animation.json',
+        renderer: 'svg',
+        loop: true,
+        autoplay: true,
+        name: "HallowTyde Animation",
+        });
+
+        var animation = bodymovin.loadAnimation({
+        container: document.getElementById('vinyl_cup_thumbnail'),
+        path: 'vinyl_cup_thumbnail_animation.json',
+        renderer: 'svg',
+        loop: true,
+        autoplay: true,
+        name: "Vinyl Cup Animation",
+        });
+
+        var animation = bodymovin.loadAnimation({
+        container: document.getElementById('introduction_thumbnail'),
+        path: 'introduction_thumbnail_animation.json',
+        renderer: 'svg',
+        loop: true,
+        autoplay: true,
+        name: "Introdution Animation",
+        });
+
+        var animation = bodymovin.loadAnimation({
+        container: document.getElementById('lyric_video_thumbnail'),
+        path: 'lyric_video_thumbnail_animation.json',
+        renderer: 'svg',
+        loop: true,
+        autoplay: true,
+        name: "Lyric Video Animation",
+        });
+    </script>
+    <script>
+    var menuIcon = document.getElementById("hamburger_icon");
+
+        var menu = document.getElementById("hamburger_menu");
+        
+        menuIcon.addEventListener("click", function() {menu.style.display = "block"; menu.style.animation = "hamburger_in .75s ease";});
+        
+        var backIcon = document.getElementById("back_arrow");
+        
+        backIcon.addEventListener("click", function() {menu.style.animation = "hamburger_out .75s ease forwards";});
+        </script>
+</body>
+</html>

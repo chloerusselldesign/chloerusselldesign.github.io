@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<head>
+    <title>chloe russell - university of northern iowa</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://use.typekit.net/dhm2zpc.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width" />
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
+</head>
+<body>
+    <nav class="no_motion">
+        <a href="index.html" class="click_cursor"><img id="nav_logo" src="images/primaryLogo_orange-01.png"></a>
+        <div id="nav_space"></div>
+        <ul id="nav_list">
+            <li><a id="nav_button" href="portfolio.html" class="click_cursor">work</a></li>
+            <li><a id="nav_button" href="resume.html" class="click_cursor">resume</a></li>
+            <li><a id="nav_button" href="about.html" class="click_cursor">about</a></li>
+        </ul>
+    </nav>
+    <div class="zoomed_photo_container">
+        <img class="zoomed_photo" src="images/portfolio images/uni/Carina Winds Digital Slide.png">
+        <img id="x_symbol" src="images/x_symbol.png">
+        <img id="right_arrow" src="images/back_arrow-01.png">
+        <img id="left_arrow" src="images/back_arrow-01.png">
+    </div>
+    <img class="project_banner" src="images/portfolio images/uni/uni_banner.png">
+    <div id="introduction_content" class="project_content">
+        <h1 class="project_page_title">university of northern iowa</h1>
+        <h3 class="project_page_subtitle">print and digital graphics</h3>
+        <p class="project_paragraph">Since August 2023, I have worked as a graphic design assistant for the College of Humanities, Arts, and Sciences at the University of Northern Iowa while working towards my degree. I worked on a variety of different projects, promoting different events and programs at the university. This included various print and digital graphics, both within and outside of the visual identity of UNI.</p>
+        <p class="project_paragraph">While I worked on many projects collaboratively with both my superiors and other student employees, these projects are all ones I personally executed from start to finish.</p>
+        <div class="flex_gallery">
+            <div class="flex_column" id="flexcol1">
+                <div class="flex_gallery_item click_cursor">
+                    <img class="flex_gallery_img" src="images/portfolio images/uni/Carina Winds Digital Slide.png">
+                </div>
+                <div class="flex_gallery_item click_cursor">
+                    <img class="flex_gallery_img" src="images/portfolio images/uni/festivals_and_workshops_poster/1723496148247-3597685e-a7f5-4583-9932-f8ef3678fd5c_1.png">
+                </div>
+                <div class="flex_gallery_item click_cursor">
+                    <img class="flex_gallery_img" src="images/portfolio images/uni/Wilson Lecture Final 2023.png">
+                </div>
+            </div>
+            <div class="flex_column" id="flexcol2">
+                <div class="flex_gallery_item click_cursor">
+                    <img class="flex_gallery_img" src="images/portfolio images/uni/building tour postcard/1723564382785-eff80a3f-a25d-4d48-8932-0deafbaab33a_1.png">
+                </div>
+                <div class="flex_gallery_item click_cursor">
+                    <img class="flex_gallery_img" src="images/portfolio images/uni/blood drive posterV2.png">
+                </div>
+                <div class="flex_gallery_item click_cursor">
+                    <img class="flex_gallery_img" src="images/portfolio images/uni/digital_media_card_both.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="hamburger_menu" class="mobile_only">
+        <div class="hamburger_nav">
+            <img id="back_arrow" src="images/back_arrow-01.png">
+            <ul class="nav_button">
+                <li class="nav_button"><a href="index.html">home</a></li>
+                <li class="nav_button"><a href="portfolio.html">work</a></li>
+                <li class="nav_button"><a href="resume.html">resume</a></li>
+                <li class="nav_button"><a href="about.html">about</a></li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <div id="footer_line_one">
+        <a href="index.html" id="footer_logo_link" class="click_cursor"> <img id="footer_logo" src="images/primaryLogo_white.png"> </a>
+        <div class="divider" id="footer_div"></div>
+        </div>
+        <div id="footer_nav_container">
+            <div id="footer_div_2" class="divider"></div>
+            <ul id="footer_nav">
+                <li><a id="footer_button" href="portfolio.html" class="click_cursor">work</a></li>
+                <li><a id="footer_button" href="resume.html" class="click_cursor">resume</a></li>
+                <li><a id="footer_button" href="contact.html" class="click_cursor">contact</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script>
+        var galleryItems = document.querySelectorAll(".flex_gallery_item");
+        var galleryImages = document.querySelectorAll(".flex_gallery_img");
+        var zoomedContainer = document.querySelector(".zoomed_photo_container");
+        var zoomedImg = document.querySelector(".zoomed_photo");
+        var leftArrow = document.querySelector("#left_arrow");
+        var rightArrow = document.querySelector("#right_arrow");
+        var galleyImgCurrent = 0;
+        var xSymbol = document.querySelector("#x_symbol");
+        for (let index = 0; index < galleryImages.length;) {
+            galleryImages[index].addEventListener("click", function() {
+                zoomedImg.src = galleryImages[index - 1].src;
+                zoomedContainer.style.display = "block";
+                galleryImgCurrent = index;
+                console.log(galleryImgCurrent);
+            })
+            index++;
+        };
+        xSymbol.addEventListener("click", function() {
+            zoomedContainer.style.display = "none";
+        })
+
+        leftArrow.addEventListener("click", function() {
+
+            galleryImgCurrent = galleryImgCurrent - 1;
+            zoomedImg.src = galleryImages[galleryImgCurrent].src;
+            console.log(galleryImgCurrent);
+        })
+
+        rightArrow.addEventListener("click", function() {
+            galleryImgCurrent = galleryImgCurrent + 1;
+            zoomedImg.src = galleryImages[galleryImgCurrent].src;
+            console.log(galleryImgCurrent);
+        })
+    </script>
+</body>
+</html>

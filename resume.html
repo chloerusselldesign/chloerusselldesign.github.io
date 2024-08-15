@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<head>
+    <title>chloe russell - resume</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://use.typekit.net/dhm2zpc.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width minimum-scale=1"/>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
+</head>
+<body>
+    <nav class="no_motion">
+        <a href="index.html" class="click_cursor"><img id="nav_logo" src="images/primaryLogo_orange-01.png"></a>
+        <div class="divider" id="nav_space"></div>
+        <ul id="nav_list">
+            <li><a id="nav_button" href="portfolio.html" class="click_cursor">work</a></li>
+            <li><a id="nav_button" href="resume.html" class="click_cursor">resume</a></li>
+            <li><a id="nav_button" href="about.html" class="click_cursor">about</a></li>
+        </ul>
+        <a class="mobile_only"><img src="images/hamburger_menu.png" id="hamburger_icon"></a>
+    </nav>
+    <div id="resume_header">
+        <h1 class="no_motion">resume</h1>
+        <a class="download_link click_cursor" href="chloe_russell_resume.pdf">download pdf</a>
+    </div>
+    <div id="resume">
+        <h3 class="no_motion">Chloe Russell</h3>
+        <p>I'm Chloe Russell, a fourth-year graphic design student at the University of Northern Iowa specializing in web design, web development, UI/UX, and motion design.</p>
+        <div class="resume_section">
+            <h4>education</h4>
+            <p class="bolder">University of Northern Iowa</p>
+            <p>
+                BA in Graphic Design, with a minor in
+                Interactive Digital Studies and Web Development. 
+                GPA 3.9. Set to graduate December 2024.
+            </p>
+        </div>
+        <div class="resume_section">
+            <h4>work experience</h4>
+            <p class="bolder">Graphic Design Assistant - University of Northern Iowa</p>
+            <p>August 2023 - present</p>
+            <p>Created promotional materials for the College of Humanities, Arts, and Sciences, both within and outside of the brand identity of the University of Northern Iowa. This includes posters, t-shirts, social media graphics, digital signage,  print media, and video editing to promote university programs and events.</p>
+        </div>
+        <div class="resume_section">
+            <h4>skills</h4>
+            <p class="bolder">Adobe Creative Suite</p>
+            <p class="spaced_paragraph">Illustrator, Photoshop, After Effects, Premiere Pro, InDesign</p>
+            <p class="bolder">Web Development</p>
+            <p class="spaced_paragraph">Figma, HTML, CSS, Javascript, Python</p>
+            <p class="bolder">Microsoft Office</p>
+            <p class="spaced_paragraph">Word, Excel, Powerpoint</p>
+        </div>
+        <div class="resume_section">
+            <h4>awards and leadership</h4>
+            <p class="bolder">UNI Annual Juried Student Art Exhibition 2024
+            </p>
+            <p class="spaced_paragraph">Juried by Jake Manternach</p>
+            <p class="bolder">Curris Design Competition 2024</p>
+            <p class="spaced_paragraph">Best of Motion Design/Animation Category</p>
+            <p class="bolder">Panther Marching Band Section Leader</p>
+            <p class="spaced_paragraph">2022, 2023, and 2024 seasons</p>
+        </div>
+        <div class="resume_section">
+            <h4>contact</h4>
+            <p>russellchloe631@gmail.com </p>
+        </div>
+    </div>
+    <footer>
+        <div id="footer_line_one">
+        <a href="index.html" id="footer_logo_link" class="click_cursor"> <img id="footer_logo" src="images/primaryLogo_white.png"> </a>
+        <div class="divider" id="footer_div"></div>
+        </div>
+        <div id="footer_nav_container">
+            <div id="footer_div_2" class="divider"></div>
+            <ul id="footer_nav">
+                <li><a id="footer_button" href="portfolio.html" class="click_cursor">work</a></li>
+                <li><a id="footer_button" href="resume.html" class="click_cursor">resume</a></li>
+                <li><a id="footer_button" href="about.html" class="click_cursor">about</a></li>
+            </ul>
+        </div>
+    </footer>
+    <div id="hamburger_menu" class="mobile_only">
+        <div class="hamburger_nav">
+            <img id="back_arrow" src="images/back_arrow-01.png">
+            <ul class="nav_button">
+                <li class="nav_button"><a href="index.html">home</a></li>
+                <li class="nav_button"><a href="portfolio.html">work</a></li>
+                <li class="nav_button"><a href="resume.html">resume</a></li>
+                <li class="nav_button"><a href="about.html">about</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+<script>
+    var menuIcon = document.getElementById("hamburger_icon");
+
+    var menu = document.getElementById("hamburger_menu");
+        
+    menuIcon.addEventListener("click", function() {menu.style.display = "block"; menu.style.animation = "hamburger_in .75s ease";});
+        
+    var backIcon = document.getElementById("back_arrow");
+        
+    backIcon.addEventListener("click", function() {menu.style.animation = "hamburger_out .75s ease forwards";});
+    </script>
+</html>
