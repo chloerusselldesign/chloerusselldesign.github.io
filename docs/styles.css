@@ -1807,14 +1807,25 @@ footer > a {
         display: none;
     }
 
+    #hallowtyde {
+        height: 50vh;
+        margin-bottom: 2vh;
+    }
+
     #hallowtyde_link {
         margin-top: 0;
-        height: 41vh;
+        height: 90vw;
         margin-bottom: 1.5vh;
     }
 
     #uni_thumbnail {
         width: 80vw;
+        display: block;
+        margin-top: 0;
+    }
+
+    #uni {
+        height: 20vh;
     }
 
     #uni_link {
