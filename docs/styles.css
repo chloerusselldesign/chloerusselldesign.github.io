@@ -1806,6 +1806,7 @@ footer > a {
     #hallowtyde_link {
         margin-top: 0;
         height: 41vh;
+        margin-bottom: 1.5vh;
     }
 
     #uni_thumbnail {
@@ -1814,11 +1815,12 @@ footer > a {
 
     #uni_link {
         margin-top: 0;
+        margin-bottom: 0vh;
     }
 
     #vinyl_cup_link {
         margin-top: 0;
-        margin-top: 6%;
+        margin-top: 0vh;
     }
 
     #vinyl_cup {
@@ -2359,12 +2361,11 @@ footer > a {
         margin: 10%;
         font-size: 12pt;
         margin-top: 0;
-        margin-bottom: 20vh;
     }
 
     #swirly_line_animation {
         order: 2;
-        margin-top: 20vh;
+        margin-top: 10vh;
     }
 
 
@@ -2452,6 +2453,7 @@ footer > a {
     #hallowtyde_link {
         margin-top: 0;
         height: 41vh;
+        margin-bottom: 2vh;
     }
 
     #uni_thumbnail {
