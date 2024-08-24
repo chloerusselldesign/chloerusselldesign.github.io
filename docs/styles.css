@@ -1704,6 +1704,10 @@ footer > a {
         margin-bottom: 10vh;
     }
 
+    #very_bottom_section {
+        margin-bottom: 30vh;
+    }
+
     #very_bottom_section > h4 {
         line-height: 100%;
         margin-bottom: 3vh;
