@@ -2359,11 +2359,12 @@ footer > a {
         margin: 10%;
         font-size: 12pt;
         margin-top: 0;
+        margin-bottom: 20vh;
     }
 
     #swirly_line_animation {
         order: 2;
-        margin-top: 10vh;
+        margin-top: 20vh;
     }
 
 
