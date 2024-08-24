@@ -709,11 +709,15 @@ p.bolder {
 }
 
 #uni_thumbnail {
-    margin-top: 4%;
+    margin-top: 1%;
     margin-bottom: 4%;
     width: 26vw;
     min-width: 400px;
     min-height: 220px;
+}
+
+#uni_title {
+    margin-top: -246px;
 }
 
 #hallowtyde_title > h3 {
@@ -1814,7 +1818,7 @@ footer > a {
 
     #vinyl_cup_link {
         margin-top: 0;
-        margin-top: 4%;
+        margin-top: 6%;
     }
 
     #vinyl_cup {
@@ -2458,7 +2462,7 @@ footer > a {
     }
 
     #vinyl_cup_link {
-        margin-top: 0;
+        margin-top: 5%;
     }
 
     #lyric_video_link {
