@@ -729,6 +729,11 @@ p.bolder {
     margin-top: 20px;
 }
 
+#still_lyric_video_thumbnail {
+    width: 26vw;
+    min-width: 400px;
+}
+
 #lyric_video_link {
     height: 29.5vw;
     min-width: 400px;
@@ -2409,7 +2414,7 @@ footer > a {
 
     .hamburger_nav > ul > li {
         display: block;
-        font-size: 12vw;
+        font-size: 15vw;
         line-height: 140%;
     }
 
