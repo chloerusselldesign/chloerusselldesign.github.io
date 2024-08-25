@@ -1938,7 +1938,7 @@ footer > a {
         width: 60vw;
         margin: 10%;
         position: absolute;
-        height: 65vh;
+        height: 55vh;
         padding: 10vw;
         padding-top: 8vw;
         padding-bottom: 4vw;
@@ -1948,7 +1948,7 @@ footer > a {
 
     .tutorial_text_scroll {
         height: 30vh;
-        margin-top: 15vh;
+        margin-top: 17vh;
     }
 
     .did_you_know {
@@ -1956,12 +1956,12 @@ footer > a {
     }
 
     .tutorial_text {
-        font-size: 5vw;
+        font-size: 4vw;
     }
 
     .tutorial_indicator {
         text-align: center;
-        margin-top: 50vh;
+        margin-top: 40vh;
         display: flex;
         position: relative;
         z-index: 10;
