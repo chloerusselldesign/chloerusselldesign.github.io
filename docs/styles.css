@@ -1663,7 +1663,7 @@ footer > a {
     }
 
     #bckg_circle {
-        margin-top: -140vh;
+        margin-top: -120vh;
         width: 200vw;
         margin-left: -50vw;
     }
@@ -1706,6 +1706,7 @@ footer > a {
     #animation_container {
         width: 70vw;
         height: 70vw;
+        margin-top: -5vh;
         margin-bottom: 10vh;
     }
 
@@ -1756,8 +1757,8 @@ footer > a {
 
     .hamburger_nav > ul > li {
         display: block;
-        font-size: 15vw;
-        line-height: 140%;
+        font-size: 17vw;
+        line-height: 160%;
     }
 
     #menu_swirly {
@@ -1853,6 +1854,10 @@ footer > a {
 
     #lyric_video_link {
         height: 41vh;
+    }
+
+    #still_lyric_video_thumbnail {
+        width: 80vw;
     }
 
     .about_columns {
@@ -2472,7 +2477,7 @@ footer > a {
 
     #hallowtyde_link {
         margin-top: 0;
-        height: 41vh;
+        height: 67vh;
         margin-bottom: 2vh;
     }
 
@@ -2484,12 +2489,20 @@ footer > a {
         margin-top: 0;
     }
 
+    #uni {
+        height: 45vw;
+    }
+
     #vinyl_cup_link {
         margin-top: 5%;
     }
 
     #lyric_video_link {
         height: 41vh;
+    }
+
+    #still_lyric_video_thumbnail {
+        width: 80vw;
     }
 
     .about_columns {
