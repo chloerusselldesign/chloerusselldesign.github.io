@@ -103,6 +103,7 @@ nav {
 
 h3 {
     font-size: 3.5vw;
+    margin-bottom: 5vw;
     font-weight: 1000;
     animation-name: in_from_left;
     animation-duration: 1s;
@@ -121,10 +122,10 @@ h1 {
     opacity: 0%;
 }
 
-#indent {
+    #indent {
     margin-left: 15%;
     margin-right: 0%;
-    margin-bottom: 13%;
+    margin-bottom: 7vw;
     animation-name: in_from_right;
     animation-duration: 1s;
     opacity: 0%;
@@ -2182,7 +2183,7 @@ footer > a {
     }
 
     h3 {
-        padding-bottom: -5%;
+        margin-bottom: 0vw;
         font-size: 36pt;
         line-height: 50%;
     }
