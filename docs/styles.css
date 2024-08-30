@@ -133,13 +133,12 @@ h1 {
 
 #landing_text > p {
     margin-left: 16%;
-    padding-top: -20%;
+    margin-top: -2vw;
     font-size: 1.7vw;
     font-weight: 700;
     color:#F6873A;
-    margin-right: -5%;
     line-height: 3vw;
-    animation: in_from_top .75s ease;
+    animation: fade_in .75s ease;
     animation-delay: 2s;
     opacity: 0%;
     animation-fill-mode: forwards;
@@ -1547,7 +1546,8 @@ footer > a {
     }
 
     #landing_text > p {
-        margin-top: -1%;
+        margin-top: 5%;
+        line-height: 160%;
         font-size: 12pt;
         width: 85%;
     }
@@ -2198,7 +2198,7 @@ footer > a {
         animation-duration: 1s;
         margin-right: -40%;
         overflow-x: clip;
-        margin-bottom: 12vw;
+        margin-bottom: 10vw;
     }
 
     #landing_text {
@@ -2207,7 +2207,8 @@ footer > a {
     }
 
     #landing_text > p {
-        margin-top: 3%;
+        margin-top: 0%;
+        line-height: 160%;
         font-size: 3vw;
         width: 85%;
     }
