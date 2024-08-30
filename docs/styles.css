@@ -138,7 +138,7 @@ h1 {
     font-weight: 700;
     color:#F6873A;
     margin-right: -5%;
-    line-height: 160%;
+    line-height: 3vw;
     animation: in_from_top .75s ease;
     animation-delay: 2s;
     opacity: 0%;
