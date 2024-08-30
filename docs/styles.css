@@ -2438,8 +2438,18 @@ footer > a {
         transform: rotate(130deg);
     }
 
+    .hamburger_nav {
+        overflow: hidden;
+    }
+
+    ul.nav_button {
+        margin-top: 23vh;
+    }
+
     .hamburger_nav > ul > li > a {
         color: white;
+        line-height: 150%;
+        font-size: 12vw;
         text-decoration: none;
     }
 
