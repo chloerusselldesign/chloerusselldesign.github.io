@@ -2348,7 +2348,7 @@ footer > a {
     }
 
     #just_text > h6 {
-        width: 65vw;
+        width: 70vw;
         font-size: 4.5vw;
         line-height: 100%;
         margin-bottom: 2vh;
@@ -2360,7 +2360,7 @@ footer > a {
         }
 
     #just_text > p {
-        width: 65vw;
+        width: 70vw;
         font-size: 3vw;
     }
 
@@ -2373,7 +2373,7 @@ footer > a {
     }
 
     #animation_container {
-        width: 65vw;
+        width: 70vw;
         height: 70vw;
         margin-bottom: 10vh;
         margin-top: -40vh;
