@@ -2197,6 +2197,7 @@ footer > a {
         animation-duration: 1s;
         margin-right: -40%;
         overflow-x: clip;
+        margin-bottom: 12vw;
     }
 
     #landing_text {
@@ -2205,7 +2206,7 @@ footer > a {
     }
 
     #landing_text > p {
-        margin-top: -1%;
+        margin-top: 3%;
         font-size: 3vw;
         width: 85%;
     }
@@ -2244,11 +2245,11 @@ footer > a {
     }
 
     .centered_text > h5 {
-        font-size: 8vw;
+        font-size: 6vw;
     }
 
     .centered_text > h3 {
-        font-size: 12vw;
+        font-size: 10vw;
     }
 
     #test_section {
@@ -2292,7 +2293,7 @@ footer > a {
     }
 
     .index_column > h5 {
-        font-size: 7vw;
+        font-size: 5vw;
         text-align: center;
         line-height: 50%;
         margin-top: 4vw;
@@ -2305,7 +2306,7 @@ footer > a {
         padding-top: 0;
         margin-top: 0;
         line-height: 150%;
-        font-size: 3.4vw;
+        font-size: 2vw;
     }
 
     #bckg_circle {
@@ -2342,28 +2343,28 @@ footer > a {
     #just_text {
         margin-top: -40vh;
         width: 70vw;
-        height: auto;
+        height: 40vh;
     }
 
     #just_text > h6 {
-        width: 70vw;
-        font-size: 7vw;
+        width: 65vw;
+        font-size: 4.5vw;
         line-height: 100%;
         margin-bottom: 2vh;
     }
 
     #just_text > h1 {
-        font-size: 7vw;
+        font-size: 4vw;
         margin-top: 0;
         }
 
     #just_text > p {
-        width: 70vw;
-        font-size: 5vw;
+        width: 65vw;
+        font-size: 3vw;
     }
 
     #see_my_work_button {
-        font-size: 5vw;
+        font-size: 4.5vw;
     }
 
     #back_arrow_index {
@@ -2371,9 +2372,14 @@ footer > a {
     }
 
     #animation_container {
-        width: 70vw;
+        width: 65vw;
         height: 70vw;
         margin-bottom: 10vh;
+        margin-top: -40vh;
+    }
+
+    #very_bottom_section {
+        height: 60vh;
     }
 
     #very_bottom_section > h4 {
@@ -2384,13 +2390,13 @@ footer > a {
     #very_bottom_section > p {
         width: 80%;
         margin: 10%;
-        font-size: 12pt;
+        font-size: 14pt;
         margin-top: 0;
     }
 
     #swirly_line_animation {
         order: 2;
-        margin-top: 10vh;
+        margin-top: 30vh;
     }
 
 
