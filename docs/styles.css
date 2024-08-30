@@ -1546,7 +1546,7 @@ footer > a {
     }
 
     #landing_text > p {
-        margin-top: 5%;
+        margin-top: 12%;
         line-height: 160%;
         font-size: 12pt;
         width: 85%;
@@ -2203,6 +2203,7 @@ footer > a {
 
     #landing_text {
         margin-top: 20%;
+
         height: 30vh;
     }
 
