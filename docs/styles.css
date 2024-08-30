@@ -2243,6 +2243,7 @@ footer > a {
 
     .centered_text{
         margin-top: 5vh;
+        margin-bottom: 10vh;
     }
 
     .centered_text > h5 {
@@ -2443,7 +2444,7 @@ footer > a {
     }
 
     ul.nav_button {
-        margin-top: 23vh;
+        margin-top: 20vh;
     }
 
     .hamburger_nav > ul > li > a {
