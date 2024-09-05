@@ -1848,6 +1848,18 @@ footer > a {
     #still_lyric_video_thumbnail {
         width: 80vw;
     }
+    
+    
+    .flex_gallery {
+        margin-top: 3vw;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .flex_gallery_item > img {
+        min-width: 0px;
+        width: 80vw;
+    }
 
     .about_columns {
         margin-top: 10vh;
@@ -2146,6 +2158,17 @@ footer > a {
     .project_gallery_large {
         width: 100%;
         padding-top: 2%;
+    }
+
+    .flex_gallery {
+        margin-top: 3vw;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .flex_gallery_item > img {
+        min-width: 0px;
+        width: 80vw;
     }
 
     .button {
