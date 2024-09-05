@@ -103,7 +103,7 @@ nav {
 
 h3 {
     font-size: 3.5vw;
-    margin-bottom: 5vw;
+    margin-bottom: 5vh;
     font-weight: 1000;
     animation-name: in_from_left;
     animation-duration: 1s;
@@ -133,7 +133,7 @@ h1 {
 
 #landing_text > p {
     margin-left: 16%;
-    margin-top: -1vw;
+    margin-top: -3vh;
     font-size: 1.7vw;
     font-weight: 700;
     color:#F6873A;
@@ -253,9 +253,9 @@ h1 {
 
 #just_text > h6 {
     color: white;
-    font-size: 20pt;
+    font-size: 2vw;
     margin-bottom: 2%;
-    line-height: 100%;
+    line-height: 110%;
     font-weight: 1000;
 }
 
@@ -285,6 +285,10 @@ h1 {
 
 .animated {
     animation-play-state: running;
+}
+
+#swirly_line_animation {
+    margin-top: 5vw;
 }
 
 
