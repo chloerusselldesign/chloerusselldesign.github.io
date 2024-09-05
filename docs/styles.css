@@ -1397,6 +1397,10 @@ footer > a {
 
 @media screen and (max-device-width: 480px) and (orientation: portrait){
 
+    .desktop_only {
+        display: none;
+    }
+
     #body {
         margin: 0;
         width: 100%;
@@ -2065,6 +2069,10 @@ footer > a {
 
 @media screen and (max-device-width: 1280px) and (orientation: portrait) and (min-device-width: 481px){
 
+    .desktop_only {
+        display: none;
+    }
+    
     #body {
         margin: 0;
         width: 100%;
