@@ -1191,6 +1191,8 @@ footer > a {
     opacity: 100%;
 }
 
+
+
 @keyframes color_shift{
     0% {-webkit-text-stroke-color:#EF2B5A}
     15% {-webkit-text-stroke-color:#F6873A};
@@ -2011,6 +2013,10 @@ footer > a {
         margin-bottom: 6%;
     }
 
+    .desktop_only {
+        display: none;
+    }
+
 }
 
 /* mobile animations */
@@ -2067,12 +2073,11 @@ footer > a {
     }
 }
 
+
+
 @media screen and (max-device-width: 1280px) and (orientation: portrait) and (min-device-width: 481px){
 
-    .desktop_only {
-        display: none;
-    }
-    
+
     #body {
         margin: 0;
         width: 100%;
@@ -2681,6 +2686,10 @@ footer > a {
         margin-top: 1%;
         font-size: 16pt;
         margin-bottom: 2%;
+    }
+
+    .desktop_only {
+        display: none;
     }
 
 }
