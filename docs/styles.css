@@ -603,6 +603,7 @@ p.bolder {
 
 #portfolio_header > h1 {
     margin-top: 0%;
+    margin-bottom: 10vh;
     font-family: "greycliff-cf", sans-serif;
     font-size: 72pt;
     color:#F6873A;
@@ -691,23 +692,17 @@ p.bolder {
     animation: nav_animation .5s ease forwards;
 }
 
-#hallowtyde_link {
+.larger_link {
     height: 29.5vw;
-    min-width: 400px;
-    min-height: 455px;
-    margin-top: 0;
-    margin-bottom: 2%;
 }
 
-#hallowtyde {
+.larger_item {
     height: 29.5vw;
-    min-width: 400px;
-    min-height: 455px;
 }
 
-#hallowtyde_title {
+.larger_title {
     height: 29.5vw;
-    margin-top: -462px;
+    margin-top: -30.1vw;
     min-width: 400px;
     min-height: 455px;
 }
@@ -724,11 +719,11 @@ p.bolder {
     margin-top: -246px;
 }
 
-#hallowtyde_title > h3 {
+.larger_title > h3 {
     padding-top: 120px;
 }
 
-#hallowtyde_title > h5 {
+.larger_title > h5 {
     line-height: 120%;
     margin-top: 20px;
 }
@@ -736,23 +731,6 @@ p.bolder {
 #still_lyric_video_thumbnail {
     width: 26vw;
     min-width: 400px;
-}
-
-#lyric_video_link {
-    height: 29.5vw;
-    min-width: 400px;
-    min-height: 455px;
-}
-
-#lyric_video_title {
-    height: 29.5vw;
-    margin-top: -462px;
-    min-width: 400px;
-    min-height: 455px;
-}
-
-#lyric_video_title > h3 {
-    padding-top: 120px;
 }
 
 #about_header {
