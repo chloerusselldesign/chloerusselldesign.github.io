@@ -655,7 +655,7 @@ p.bolder {
     text-align: center;
     position: relative;
     margin: 0;
-    margin-top: -15vw;
+    margin-top: -14.9vw;
     height: 14.3vw;
     width: 26vw;
     min-width: 400px;
@@ -1826,13 +1826,13 @@ footer > a {
     .gallery_item_title {
         display: none;
     }
-
-    #hallowtyde {
+    
+    .larger_item{
         height: 50vh;
         margin-bottom: 2vh;
     }
 
-    #hallowtyde_link {
+    .larger_link {
         margin-top: 0;
         height: 90vw;
         margin-bottom: 1.5vh;
@@ -1840,6 +1840,7 @@ footer > a {
 
     #uni_thumbnail {
         width: 80vw;
+        height: 45vw;
         display: block;
         margin-top: 0;
     }
