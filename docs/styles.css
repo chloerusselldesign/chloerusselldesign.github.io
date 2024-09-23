@@ -85,7 +85,7 @@ nav {
 
 #landing {
     margin: 7%;
-    margin-top: -2%;
+    margin-top: -5%;
     margin-left: 25%;
     margin-right: 25%;
     display: flex;
@@ -103,26 +103,30 @@ nav {
 
 h3 {
     font-size: 3.5vw;
-    margin-bottom: 5vh;
     font-weight: 1000;
+}
+
+#landing_text > h3 {
+    line-height: 160%;
     animation-name: in_from_left;
     animation-duration: 1s;
 }
 
 h1 {
     font-size: 13.5vw;
-    line-height: 0%;
     font-weight: 1000;
-    justify-content: left;
     margin-top: 15%;
     animation-name: in_from_left;
     animation-duration: 1s;
     animation-delay: .8s;
     animation-fill-mode: forwards;
     opacity: 0%;
+    line-height: 0%;
+    justify-content: left;
 }
 
-    #indent {
+
+#indent {
     margin-left: 15%;
     margin-right: 0%;
     margin-bottom: 7vw;
@@ -133,9 +137,11 @@ h1 {
 
 #landing_text > p {
     margin-left: 16%;
-    margin-top: -3vh;
     font-size: 1.7vw;
     font-weight: 700;
+    margin-top: -2vh;
+    height: 10vh;
+    width: 44vw;
     color:#F6873A;
     line-height: 3vw;
     animation: fade_in .75s ease;
@@ -612,7 +618,7 @@ p.bolder {
 #gallery {
     margin: 10%;
     width: 80%;
-    margin-top: 0;
+    margin-top: 5vw;
     opacity: 0%;
     animation: nav_animation 2s 1s forwards;
     display: flex;
@@ -629,7 +635,8 @@ p.bolder {
 }
 
 .gallery_item {
-    width: 400px;
+    width: 26vw;
+    min-width: 400px;
     min-height: 220px;
     height: 14.5vw;
     margin: 0;
@@ -649,8 +656,9 @@ p.bolder {
     position: relative;
     margin: 0;
     margin-top: -57.5%;
-    height: 14.4vw;
-    width: 400px;
+    height: 14.3vw;
+    width: 26vw;
+    min-width: 400px;
     min-height: 222px;
     padding-top: 1%;
     opacity: 0;
@@ -663,13 +671,14 @@ p.bolder {
     color: white;
     display: flex;
     padding: 0;
-    height: 14.5vw;
-    width: 400px;
+    height: 14.3vw;
+    width: 26vw;
+    min-width: 400px;
     min-height: 220px;
     margin: 0;
     margin: 0;
     margin-top: 0;
-    margin-bottom: 2.5%;
+    margin-bottom: 3.2%;
 }
 
 .gallery_item_title > h3 {
@@ -701,7 +710,8 @@ p.bolder {
 
 .larger_title {
     height: 29.5vw;
-    width: 400px;
+    width: 26vw;
+    min-width: 400px;
     margin-top: -462px;
     min-height: 455px;
 }
@@ -709,12 +719,16 @@ p.bolder {
 #uni_thumbnail {
     margin-top: 1px;
     margin-bottom: 4%;
-    width: 400px;
+    width: 26vw;
+    min-width: 400px;
+    height: 14.5vw;
     min-height: 220px;
+    background-image: url(images/portfolio_images/uni/uni_thumbnail.png);
+    background-size: cover;
 }
 
 #uni_title {
-    margin-top: -246px;
+    margin-top: -242px;
 }
 
 .larger_title > h3 {
@@ -729,6 +743,19 @@ p.bolder {
 #still_lyric_video_thumbnail {
     width: 26vw;
     min-width: 400px;
+    height: 29.5vw;
+    min-height: 455px;
+    background-image: url(images/portfolio_images/lyric_video/lyric_video_thumbnail_still.png);
+    background-size: cover;
+}
+
+#lyric_video_title {
+    margin-top: -459px;
+    height: 29.3vw;
+}
+
+#lyric_video_link {
+    margin-top: 4.5%;
 }
 
 #about_header {
@@ -750,7 +777,8 @@ p.bolder {
     display: flex;
     flex-wrap: wrap;
     margin: 10%;
-    margin-top: 0;
+    margin-top: 5%;
+    min-height: 90vh;
 }
 
 .about_column {
@@ -773,12 +801,13 @@ p.bolder {
 #about_blurb > p {
     font-weight: 200;
     line-height: 150%;
-    font-size: 16pt;
+    font-size: 1.4vw;
     margin-bottom: 1%;
 }
 
 #about_img {
-    width: 450px;
+    width: 30vw;
+    min-width: 450px;
     animation: rotation_animation_2 1s ease;
 }
 
@@ -811,9 +840,11 @@ p.bolder {
 #linkedin_button {
     margin-left: 0;
     margin-right: 0;
-    padding: 10pt;
-    padding-left: 15pt;
-    padding-right: 15pt;
+    padding: 14pt;
+    padding-bottom: 14pt;
+    color: #20A06F;
+    font-size: 20pt;
+    text-decoration: none;
 }
 
 #linkedin_logo {
