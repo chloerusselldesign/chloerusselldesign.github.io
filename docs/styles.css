@@ -1541,6 +1541,10 @@ footer > a {
         line-height: 50%;
     }
 
+    #landing_text > h3 {
+        line-height: 50%;
+    }
+
     h1{
         margin-top: 18%;
         font-size: 21vw;
@@ -1828,7 +1832,7 @@ footer > a {
     }
     
     .larger_item{
-        height: 50vh;
+        height: 90vw;
         margin-bottom: 2vh;
     }
 
@@ -1873,6 +1877,7 @@ footer > a {
 
     #still_lyric_video_thumbnail {
         width: 80vw;
+        height: 90vw;
     }
     
     
@@ -1941,13 +1946,9 @@ footer > a {
 
     #linkedin_button  {
         padding: 3vw;
-        padding-left: 4vw;
-        padding-right: 4vw;
+        font-size: 6vw;
     }
 
-    #linkedin_logo {
-        width: 4.5vw;
-    }
 
     #about_portfolio_button {
         font-size: 6vw;
@@ -2114,6 +2115,7 @@ footer > a {
 
 
 @media screen and (max-device-width: 1280px) and (orientation: portrait) and (min-device-width: 481px){
+
 
 
     #body {
