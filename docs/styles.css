@@ -375,6 +375,7 @@ h1 {
 .doodles_line {
     background-color: white;
     width: 300%;
+    overflow-x: hidden;
     animation: horizontal_scroll2 17s linear infinite
 }
 
@@ -1591,6 +1592,7 @@ footer > a {
 
     .doodles_line {
         width: 800vw;
+        overflow-x: hidden;
         animation: horizontal_scroll_mobile 14s linear infinite
     }
 
