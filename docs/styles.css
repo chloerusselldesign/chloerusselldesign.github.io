@@ -2056,6 +2056,7 @@ footer > a {
 
     .desktop_only {
         display: none;
+        visibility: hidden;
     }
 
 }
