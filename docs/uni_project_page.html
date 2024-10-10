@@ -20,7 +20,7 @@
         </ul>
         <a class="mobile_only"><img src="images/hamburger_menu.png" id="hamburger_icon"></a>
     </nav>
-    <div class="zoomed_photo_container">
+    <div class="zoomed_photo_container desktop_only">
         <img class="zoomed_photo" src="images/portfolio images/uni/Carina Winds Digital Slide.png">
         <img id="x_symbol" src="images/x_symbol.png">
         <img id="right_arrow" src="images/back_arrow-01.png">
@@ -83,39 +83,42 @@
         </div>
     </footer>
     <script>
-        var galleryItems = document.querySelectorAll(".flex_gallery_item");
-        var galleryImages = document.querySelectorAll(".flex_gallery_img");
-        var zoomedContainer = document.querySelector(".zoomed_photo_container");
-        var zoomedImg = document.querySelector(".zoomed_photo");
-        var leftArrow = document.querySelector("#left_arrow");
-        var rightArrow = document.querySelector("#right_arrow");
-        var galleyImgCurrent = 0;
-        var xSymbol = document.querySelector("#x_symbol");
-        for (let index = 0; index < galleryImages.length;) {
-            galleryImages[index].addEventListener("click", function() {
-                zoomedImg.src = galleryImages[index - 1].src;
-                zoomedContainer.style.display = "block";
-                galleryImgCurrent = index;
+
+        if (window.innerWidth > 750) {
+            var galleryItems = document.querySelectorAll(".flex_gallery_item");
+            var galleryImages = document.querySelectorAll(".flex_gallery_img");
+            var zoomedContainer = document.querySelector(".zoomed_photo_container");
+            var zoomedImg = document.querySelector(".zoomed_photo");
+            var leftArrow = document.querySelector("#left_arrow");
+            var rightArrow = document.querySelector("#right_arrow");
+            var galleyImgCurrent = 0;
+            var xSymbol = document.querySelector("#x_symbol");
+            for (let index = 0; index < galleryImages.length;) {
+                galleryImages[index].addEventListener("click", function() {
+                    zoomedImg.src = galleryImages[index - 1].src;
+                    zoomedContainer.style.display = "block";
+                    galleryImgCurrent = index;
+                    console.log(galleryImgCurrent);
+                })
+                index++;
+            };
+            xSymbol.addEventListener("click", function() {
+                zoomedContainer.style.display = "none";
+            })
+
+            leftArrow.addEventListener("click", function() {
+
+                galleryImgCurrent = galleryImgCurrent - 1;
+                zoomedImg.src = galleryImages[galleryImgCurrent].src;
                 console.log(galleryImgCurrent);
             })
-            index++;
-        };
-        xSymbol.addEventListener("click", function() {
-            zoomedContainer.style.display = "none";
-        })
 
-        leftArrow.addEventListener("click", function() {
-
-            galleryImgCurrent = galleryImgCurrent - 1;
-            zoomedImg.src = galleryImages[galleryImgCurrent].src;
-            console.log(galleryImgCurrent);
-        })
-
-        rightArrow.addEventListener("click", function() {
-            galleryImgCurrent = galleryImgCurrent + 1;
-            zoomedImg.src = galleryImages[galleryImgCurrent].src;
-            console.log(galleryImgCurrent);
-        })
+            rightArrow.addEventListener("click", function() {
+                galleryImgCurrent = galleryImgCurrent + 1;
+                zoomedImg.src = galleryImages[galleryImgCurrent].src;
+                console.log(galleryImgCurrent);
+            })
+        }
     </script>
 </body>
 </html>
