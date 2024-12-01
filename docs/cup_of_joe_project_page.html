@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<head>
+    <title>chloe russell - cup of joe</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://use.typekit.net/dhm2zpc.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width" />
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
+</head>
+<body>
+    <nav class="no_motion">
+        <a href="index.html"><img id="nav_logo" src="images/primaryLogo_orange-01.png"></a>
+        <div class="divider" id="nav_space"></div>
+        <ul id="nav_list">
+            <li><a id="nav_button" href="portfolio.html">work</a></li>
+            <li><a id="nav_button" href="resume.html">resume</a></li>
+            <li><a id="nav_button" href="about.html">about</a></li>
+        </ul>
+        <a class="mobile_only"><img src="images/hamburger_menu.png" id="hamburger_icon"></a>
+    </nav>
+    <img class="project_banner" src="images/portfolio images/cup of joe/coj_mobile_mockup_2.png">
+    <div id="coj_content" class="project_content">
+        <h1 class="project_page_title">cup of joe</h1>
+        <h3 class="project_page_subtitle">brand concept and website design/development - 2024</h3>
+        <p class="project_paragraph">Cup of Joe is a local coffee shop in Cedar Falls, Iowa with a quirky 1950s aesthetic and a dedication to ethically sourced coffee. Filled with midcentury furniture and works by local artists, it's unlike any other coffee shop in the area. They need a visual identity that is colorful, unifying, and has plenty of personality.</p>
+        <p class="project_paragraph">This rebranding concept includes new logos, typefaces, and colors, all reflected in a new website that I built from scratch with HTML, CSS, and Javascript.</p>
+        <p class="project_paragraph"><a href="coj_website/index.html" class="project_link click_cursor" target="_blank">Click here</a> to experience the working prototype of the website.</p>
+        <div class="project_gallery">
+            <img class="project_gallery_img" src="images/portfolio images/cup of joe/coj_sign_mockup.png">
+            <img class="project_gallery_img" src="images/portfolio images/cup of joe/coj_packing_mockup.png">
+            <img class="project_gallery_large" src="images/portfolio images/cup of joe/coj_website_mockups_2.png">
+            <a class="button click_cursor" href="coj_website/index.html" target="_blank">view the website</a>
+        </div>
+
+    </div>
+    <footer>
+        <div id="footer_line_one">
+        <a href="index.html" id="footer_logo_link"> <img id="footer_logo" src="images/primaryLogo_white.png"> </a>
+        <div class="divider" id="footer_div"></div>
+        </div>
+        <div id="footer_nav_container">
+            <div id="footer_div_2" class="divider"></div>
+            <ul id="footer_nav">
+                <li><a id="footer_button" href="portfolio.html">work</a></li>
+                <li><a id="footer_button" href="resume.html">resume</a></li>
+                <li><a id="footer_button" href="contact.html">contact</a></li>
+            </ul>
+        </div>
+    </footer>
+    <div id="hamburger_menu" class="mobile_only">
+        <div class="hamburger_nav">
+            <img id="back_arrow" src="images/back_arrow-01.png">
+            <ul class="nav_button">
+                <li class="nav_button"><a href="index.html">home</a></li>
+                <li class="nav_button"><a href="portfolio.html">work</a></li>
+                <li class="nav_button"><a href="resume.html">resume</a></li>
+                <li class="nav_button"><a href="about.html">about</a></li>
+            </ul>
+        </div>
+    </div>
+        <script>var menuIcon = document.getElementById("hamburger_icon");
+
+            var menu = document.getElementById("hamburger_menu");
+            
+            menuIcon.addEventListener("click", function() {menu.style.display = "block"; menu.style.animation = "hamburger_in .75s ease";});
+            
+            var backIcon = document.getElementById("back_arrow");
+            
+            backIcon.addEventListener("click", function() {menu.style.animation = "hamburger_out .75s ease forwards";});</script>
+</body>
+</html>

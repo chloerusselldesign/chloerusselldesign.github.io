@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cup of Joe - About</title>
+        <meta charset="utf-8" content="noindex, nofollow">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="https://use.typekit.net/xxc7lxd.css">
+        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body id="store">
+        <nav>
+            <ul class="nav">
+                <li class="nav"><a href="about.html">About</a></li>
+                <li class="nav"> <a href= "home.html">
+                    <img id="navLogo" src="images/wordmark_coldfoam.svg" alt="Cup Of Joe"> 
+                </a>
+                </li>
+                <li class="nav"><a href="store.html">Store</a></li>
+            </ul class="nav">
+        </nav>
+        <div id="store_landing">
+            <div id="mug_circle">
+                <img class="mug desktop_only" id="green_mug" src="images/mugs-05.png">
+                <img class="mug desktop_only" id="pink_mug" src="images/mugs-06.png">
+                <img class="mug desktop_only" id="red_mug" src="images/mugs-07.png">
+                <img class="mug desktop_only" id="yellow_mug" src="images/mugs-08.png">
+                <img class="mug desktop_only" id="pink_mug2" src="images/mugs-06.png">
+            </div>
+            <div id="mug_circle" class="mobile_only">
+                <img class="mug" id="green_mug_mobile" src="images/mugs-05.png">
+                <img class="mug" id="pink_mug_mobile" src="images/mugs-06.png">
+                <img class="mug" id="red_mug_mobile" src="images/mugs-07.png">
+                <img class="mug" id="yellow_mug_mobile" src="images/mugs-08.png">
+                <img class="mug" id="pink_mug2_mobile" src="images/mugs-06.png">
+            </div>
+            <div class="store_landing_text">
+            <h2> Store </h2>
+            <p>Get a preview of what you can expect from Cup of Joe's unique storefront. (Spoiler: it's not just coffee.)</p>
+            </div>
+            <div class="store_info_container">
+                <div class="store_info_section" id="yellow_mug_text">
+                    <h5>ROASTS</h5>
+                    <p>Roasts are rotated every 3 months to keep your tongue on its tip-toes, and our celebrated flavors make any day special. This includes our famous Highlander Grog, Blueberry Cinnamon Swirl, and Chocolate Almond Junkie.</p>
+                </div>
+                <div class="store_info_section" id="red_mug_text">
+                    <h5>BAKERY</h5>
+                    <p>Cup of Joe's in-house bakers provide a wide selection of sweet and savory baked goods every day, including vegan and wheat-free options.</p>
+                </div>
+                <div class="store_info_section" id="pink_mug_text">
+                    <h5>MERCHANDISE</h5>
+                    <p>If you love our mascot as much as we do, stop in and buy a mug, sweatshirt, hat, or other item with their face on it. And if you're looking to replicate the Cup of Joe coffee experience, you can take home a bag of our coffee beans.
+                    </p>
+                </div>
+                <div class="store_info_section" id="pink_mug2_text">
+                    <h5>DRINKS</h5>
+                    <p> With choices including the Screaming Chicken Latte, Grandma's Cake Batter Breve, the Rock Star Mocha, and many others, we'll sure you'll find something you'll enjoy. We invite you to recommend your own flavor combos to ensure your taste-buds leave satisfied.
+                    </p>
+                </div>
+                <div class="store_info_section" id="green_mug_text">
+                    <h5>NOT JUST JOE</h5>
+                    <p> Peruse our extensive variety of Republic of Tea flavors. Red, black, white, or green - we have it. Enjoy a cup here or take a tin home to enjoy at your leisure. We also offer a variety of other non-coffee beverages, if you're not a tea person.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="columns">
+                <div class="column">
+                    <h5>
+                        Hours
+                    </h5>
+                    <p>
+                        Monday - Friday: 6 am - 8 pm
+                    </p>
+                    <p>
+                        Saturday - Sunday: 7 am - 8 pm
+                    </p>
+                    <p>
+                        Closed most major holidays.
+                    </p>
+                </div>
+                <div class="column">
+                    <h5>
+                        Music Events
+                    </h5>
+                    <p>
+                        Hands of Time Jazz Quartet: 
+                    </p> 
+                    <p>
+                        Thursdays, 8:00 - 9:30
+                    </p>
+                    <p>
+                        Other Live Music:
+                    </p>
+                    <p>
+                        Saturday and Sunday, 8:00 - 9:30
+                    </p>
+                </div>
+                <div class="column">
+                    <h5>
+                        Find Us
+                    </h5>
+                    <p>
+                        102 Main Street
+                    </p>
+                    <p>
+                        Cedar Falls, IA 50613
+                    </p>
+                    <p>
+                        319-277-1596
+                    </p>
+                </div>
+            </div>
+            <ul>
+                <li class="socials_list">
+                    <a href="https://www.facebook.com/cupofjoe.cedarfalls/" class="social_links"> <img src="images/facebook_icon.png" alt="Facebook" class="social_icons"> </a>
+                </li>
+                <li class="socials_list">
+                    <a href="https://www.instagram.com/cupofjoecf/" class="social_links"><img src="images/insta_logo.png" alt="Instagram" class="social_icons"></a>
+                </li>
+            </ul>
+    </body>
+    <script>
+        var allMugs = document.querySelectorAll(".mug");
+
+        var yellowMug = document.getElementById("yellow_mug");
+
+        var redMug = document.getElementById("red_mug");
+
+        var pinkMug = document.getElementById("pink_mug");
+
+        var greenMug = document.getElementById("green_mug");
+
+        var pinkMug2 = document.getElementById("pink_mug2");
+
+        var storeHeading = document.querySelector(".store_landing_text");
+
+        var mugCircle = document.getElementById("mug_circle");
+
+        var allText = document.querySelectorAll(".store_info_section")
+
+        var yellowText = document.getElementById("yellow_mug_text");
+
+        var redText = document.getElementById("red_mug_text");
+
+        var pinkText = document.getElementById("pink_mug_text");
+
+        var greenText = document.getElementById("green_mug_text");
+
+        var pinkText2 = document.getElementById("pink_mug2_text");
+        
+
+        pinkMug.addEventListener("click", function() {
+            let targetMug = pinkMug;
+            storeHeading.style.opacity = "0";
+            if (targetMug.style.width = "13vw") {
+                for (let index = 0; index < allMugs.length;) {
+                    if (allMugs[index].style.width === "13vw") {
+                    allMugs[index].style.animation = "none";
+                    }
+                    if (allMugs[index].style.width === "70vw") {
+                        allMugs[index].style.width = "13vw";
+                        allMugs[index].style.animationDirection = "reverse";
+                    }
+                    index++;
+                }
+                for (let index = 0; index < allText.length;) {
+                    if (allText[index].style.display === "none") {
+                        allText[index].style.animation = "none";
+                    }
+                    if (allText[index].style.display === "block") {
+                        allText[index].style.display = "none";
+                        allText[index].style.animationDirection = "reverse"
+                    }
+                    index++;
+                }
+                pinkText.style.animation = "text_in .25s 1s forwards ease";
+                targetMug.style.animation = "mug_to_center_pink 2s ease forwards"
+                pinkText.style.display = "block";
+                targetMug.style.width = "70vw";
+        }
+        });
+
+        greenMug.addEventListener("click", function() {
+            let targetMug = greenMug;
+            storeHeading.style.opacity = "0";
+            if (targetMug.style.width = "13vw") {
+                for (let index = 0; index < allMugs.length;) {
+                    if (allMugs[index].style.width === "13vw") {
+                    allMugs[index].style.animation = "none";
+                    }
+                    if (allMugs[index].style.width === "70vw") {
+                        allMugs[index].style.width = "13vw";
+                        allMugs[index].style.animationDirection = "reverse";
+                    }
+                    index++;
+                }
+                for (let index = 0; index < allText.length;) {
+                    if (allText[index].style.display === "none") {
+                        allText[index].style.animation = "none";
+                    }
+                    if (allText[index].style.display === "block") {
+                        allText[index].style.display = "none";
+                        allText[index].style.animationDirection = "reverse"
+                    }
+                    index++;
+                }
+                targetMug.style.animationDirection = "forwards";
+                targetMug.style.animation = "mug_to_center_green 2s ease forwards"
+                greenText.style.animation = "text_in .25s 1s forwards ease";
+                greenText.style.display = "block";
+                targetMug.style.width = "70vw";
+        }
+        });
+
+
+        yellowMug.addEventListener("click", function() {
+            let targetMug = yellowMug;
+            storeHeading.style.opacity = "0";
+            if (targetMug.style.width = "13vw") {
+                for (let index = 0; index < allMugs.length;) {
+                    if (allMugs[index].style.width === "13vw") {
+                    allMugs[index].style.animation = "none";
+                    }
+                    if (allMugs[index].style.width === "70vw") {
+                        allMugs[index].style.width = "13vw";
+                        allMugs[index].style.animationDirection = "reverse";
+                    }
+                    index++;
+                }
+                for (let index = 0; index < allText.length;) {
+                    if (allText[index].style.display === "none") {
+                        allText[index].style.animation = "none";
+                    }
+                    if (allText[index].style.display === "block") {
+                        allText[index].style.display = "none";
+                        allText[index].style.animationDirection = "reverse"
+                    }
+                    index++;
+                }
+                targetMug.style.animation = "mug_to_center_yellow 2s ease forwards"
+                yellowText.style.animation = "text_in .25s 1s forwards ease";
+                yellowText.style.display = "block";
+                targetMug.style.width = "70vw";
+        }
+        });
+
+        pinkMug2.addEventListener("click", function() {
+            let targetMug = pinkMug2;
+            storeHeading.style.opacity = "0";
+            if (targetMug.style.width = "13vw") {
+                for (let index = 0; index < allMugs.length;) {
+                    if (allMugs[index].style.width === "13vw") {
+                    allMugs[index].style.animation = "none";
+                    }
+                    if (allMugs[index].style.width === "70vw") {
+                        allMugs[index].style.width = "13vw";
+                        allMugs[index].style.animationDirection = "reverse";
+                    }
+                    index++;
+                }
+                for (let index = 0; index < allText.length;) {
+                    if (allText[index].style.display === "none") {
+                        allText[index].style.animation = "none";
+                    }
+                    if (allText[index].style.display === "block") {
+                        allText[index].style.display = "none";
+                        allText[index].style.animationDirection = "reverse"
+                    }
+                    index++;
+                }
+                targetMug.style.animationDirection = "forwards";
+                targetMug.style.animation = "mug_to_center_pink2 2s ease forwards"
+                pinkText2.style.animation = "text_in .25s 1s forwards ease";
+                pinkText2.style.display = "block";
+                targetMug.style.width = "70vw";
+        }
+        });
+        
+        redMug.addEventListener("click", function() {
+            let targetMug = redMug;
+            storeHeading.style.opacity = "0";
+            if (targetMug.style.width = "13vw") {
+                for (let index = 0; index < allMugs.length;) {
+                    if (allMugs[index].style.width === "13vw") {
+                    allMugs[index].style.animation = "none";
+                    }
+                    if (allMugs[index].style.width === "70vw") {
+                        allMugs[index].style.width = "13vw";
+                        allMugs[index].style.animationDirection = "reverse";
+                    }
+                    index++;
+                }
+                for (let index = 0; index < allText.length;) {
+                    if (allText[index].style.display === "none") {
+                        allText[index].style.animation = "none";
+                    }
+                    if (allText[index].style.display === "block") {
+                        allText[index].style.display = "none";
+                        allText[index].style.animationDirection = "reverse"
+                    }
+                    index++;
+                }
+                targetMug.style.animationDirection = "forwards";
+                targetMug.style.animation = "mug_to_center_red 2s ease forwards"
+                redText.style.animation = "text_in .25s 1s forwards ease";
+                redText.style.display = "block";
+                targetMug.style.width = "70vw";
+        }
+        });
+
+        var yellowMugMobile = document.getElementById("yellow_mug_mobile");
+
+        var redMugMobile = document.getElementById("red_mug_mobile");
+
+        var pinkMugMobile = document.getElementById("pink_mug_mobile");
+
+        var greenMugMobile = document.getElementById("green_mug_mobile");
+
+        var pinkMug2Mobile = document.getElementById("pink_mug2_mobile");
+
+
+        pinkMugMobile.addEventListener("click", function() {
+            let targetMug = pinkMugMobile;
+            storeHeading.style.opacity = "0";
+            if (targetMug.style.width = "30vw") {
+                for (let index = 0; index < allMugs.length;) {
+                    if (allMugs[index].style.width === "30vw") {
+                    allMugs[index].style.animation = "none";
+                    }
+                    if (allMugs[index].style.width === "90vw") {
+                        allMugs[index].style.width = "30vw";
+                        allMugs[index].style.animationDirection = "reverse";
+                    }
+                    index++;
+                }
+                for (let index = 0; index < allText.length;) {
+                    if (allText[index].style.display === "none") {
+                        allText[index].style.animation = "none";
+                    }
+                    if (allText[index].style.display === "block") {
+                        allText[index].style.display = "none";
+                        allText[index].style.animationDirection = "reverse"
+                    }
+                    index++;
+                }
+                pinkText.style.animation = "text_in .25s 1s forwards ease";
+                targetMug.style.animation = "mug_to_center_pink_mobile 2s ease forwards"
+                pinkText.style.display = "block";
+                targetMug.style.width = "90vw";
+        }
+        });
+
+        yellowMugMobile.addEventListener("click", function() {
+            let targetMug = yellowMugMobile;
+            storeHeading.style.opacity = "0";
+            if (targetMug.style.width = "30vw") {
+                for (let index = 0; index < allMugs.length;) {
+                    if (allMugs[index].style.width === "30vw") {
+                    allMugs[index].style.animation = "none";
+                    }
+                    if (allMugs[index].style.width === "90vw") {
+                        allMugs[index].style.width = "30vw";
+                        allMugs[index].style.animationDirection = "reverse";
+                    }
+                    index++;
+                }
+                for (let index = 0; index < allText.length;) {
+                    if (allText[index].style.display === "none") {
+                        allText[index].style.animation = "none";
+                    }
+                    if (allText[index].style.display === "block") {
+                        allText[index].style.display = "none";
+                        allText[index].style.animationDirection = "reverse"
+                    }
+                    index++;
+                }
+                yellowText.style.animation = "text_in .25s 1s forwards ease";
+                targetMug.style.animation = "mug_to_center_yellow_mobile 2s ease forwards"
+                yellowText.style.display = "block";
+                targetMug.style.width = "90vw";
+        }
+        });
+
+        redMugMobile.addEventListener("click", function() {
+            let targetMug = redMugMobile;
+            storeHeading.style.opacity = "0";
+            if (targetMug.style.width = "30vw") {
+                for (let index = 0; index < allMugs.length;) {
+                    if (allMugs[index].style.width === "30vw") {
+                    allMugs[index].style.animation = "none";
+                    }
+                    if (allMugs[index].style.width === "90vw") {
+                        allMugs[index].style.width = "30vw";
+                        allMugs[index].style.animationDirection = "reverse";
+                    }
+                    index++;
+                }
+                for (let index = 0; index < allText.length;) {
+                    if (allText[index].style.display === "none") {
+                        allText[index].style.animation = "none";
+                    }
+                    if (allText[index].style.display === "block") {
+                        allText[index].style.display = "none";
+                        allText[index].style.animationDirection = "reverse"
+                    }
+                    index++;
+                }
+                redText.style.animation = "text_in .25s 1s forwards ease";
+                targetMug.style.animation = "mug_to_center_red_mobile 2s ease forwards"
+                redText.style.display = "block";
+                targetMug.style.width = "90vw";
+        }
+        });
+
+        greenMugMobile.addEventListener("click", function() {
+            let targetMug = greenMugMobile;
+            storeHeading.style.opacity = "0";
+            if (targetMug.style.width = "30vw") {
+                for (let index = 0; index < allMugs.length;) {
+                    if (allMugs[index].style.width === "30vw") {
+                    allMugs[index].style.animation = "none";
+                    }
+                    if (allMugs[index].style.width === "90vw") {
+                        allMugs[index].style.width = "30vw";
+                        allMugs[index].style.animationDirection = "reverse";
+                    }
+                    index++;
+                }
+                for (let index = 0; index < allText.length;) {
+                    if (allText[index].style.display === "none") {
+                        allText[index].style.animation = "none";
+                    }
+                    if (allText[index].style.display === "block") {
+                        allText[index].style.display = "none";
+                        allText[index].style.animationDirection = "reverse"
+                    }
+                    index++;
+                }
+                greenText.style.animation = "text_in .25s 1s forwards ease";
+                targetMug.style.animation = "mug_to_center_green_mobile 2s ease forwards"
+                greenText.style.display = "block";
+                targetMug.style.width = "90vw";
+        }
+        });
+
+        pinkMug2Mobile.addEventListener("click", function() {
+            let targetMug = pinkMug2Mobile;
+            storeHeading.style.opacity = "0";
+            if (targetMug.style.width = "30vw") {
+                for (let index = 0; index < allMugs.length;) {
+                    if (allMugs[index].style.width === "30vw") {
+                    allMugs[index].style.animation = "none";
+                    }
+                    if (allMugs[index].style.width === "90vw") {
+                        allMugs[index].style.width = "30vw";
+                        allMugs[index].style.animationDirection = "reverse";
+                    }
+                    index++;
+                }
+                for (let index = 0; index < allText.length;) {
+                    if (allText[index].style.display === "none") {
+                        allText[index].style.animation = "none";
+                    }
+                    if (allText[index].style.display === "block") {
+                        allText[index].style.display = "none";
+                        allText[index].style.animationDirection = "reverse"
+                    }
+                    index++;
+                }
+                pinkText2.style.animation = "text_in .25s 1s forwards ease";
+                targetMug.style.animation = "mug_to_center_pink2_mobile 2s ease forwards"
+                pinkText2.style.display = "block";
+                targetMug.style.width = "90vw";
+        }
+        });
+
+    </script>
+</html>

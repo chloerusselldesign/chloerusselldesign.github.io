@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cup of Joe - Home</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="https://use.typekit.net/xxc7lxd.css">
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js"></script>
+    </head>
+<body>
+    <div class="container" id="animation"></div>
+        <script>
+            var animation = bodymovin.loadAnimation({
+                container: document.getElementById('animation'),
+                path: 'images/joe_animation.json',
+                render: 'svg',
+                loop: true,
+                autoplay: true,
+                name: 'joe animation'
+            });
+        </script>
+</html>
