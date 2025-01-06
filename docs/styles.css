@@ -631,7 +631,6 @@ p.bolder {
 
 .thumbnail_container {
     z-index: 3;
-    background-color:#06135E;
     height: 14.5vw;
     width: 100%;
 }
@@ -1177,7 +1176,14 @@ footer > a {
     opacity: 100%;
 }
 
+.eyenamo_page_body {
+    background-color: #121D51;
+}
 
+.full_project_image {
+    width: 65vw;
+    margin-left: 20vw;
+}
 
 @keyframes color_shift{
     0% {-webkit-text-stroke-color:#EF2B5A}
