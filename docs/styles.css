@@ -137,13 +137,12 @@ h1 {
 
 #landing_text > p {
     margin-left: 16%;
-    font-size: 1.7vw;
+    font-size: 2vw;
     font-weight: 700;
-    margin-top: -2vh;
-    height: 10vh;
+    margin-top: -3vh;
     width: 44vw;
     color:#F6873A;
-    line-height: 3vw;
+    line-height: 150%;
     animation: fade_in .75s ease;
     animation-delay: 2s;
     opacity: 0%;
@@ -1559,7 +1558,7 @@ footer > a {
     }
 
     #landing_text {
-        margin-top: 20%;
+        margin-top: 10%;
         height: 30vh;
     }
 
@@ -2258,7 +2257,7 @@ footer > a {
 
     #landing_text > p {
         margin-top: 0%;
-        line-height: 160%;
+        line-height: 100%;
         font-size: 3vw;
         width: 85%;
     }
