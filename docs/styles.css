@@ -1835,6 +1835,11 @@ footer > a {
         height: 92vw;
     }
 
+    .full_project_image {
+        margin: 3vw;
+        width: 92vw;
+    }
+
     .flex_gallery {
         margin-top: 3vw;
         display: flex;
