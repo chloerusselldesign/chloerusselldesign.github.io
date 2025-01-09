@@ -317,10 +317,11 @@ h1 {
 }
 
 #animation_container {
-    height: 500px;
+    width: 40vw;
+    min-width: 200px;
     margin-bottom: 5vh;
-    margin-top: 5vh;
-    display: flex;
+    margin-top: 8vw;
+    display: block;
 }
 
 #glasses {
@@ -1703,6 +1704,7 @@ footer > a {
     #bottom_text {
         width: 70%;
         margin-bottom: -20vh;
+        display: block;
     }
 
     #just_text {
@@ -1731,8 +1733,8 @@ footer > a {
     #animation_container {
         width: 70vw;
         height: 70vw;
-        margin-top: -5vh;
-        margin-bottom: 10vh;
+        display: block;
+        position:relative;
     }
 
     #very_bottom_section {
@@ -1852,23 +1854,17 @@ footer > a {
     }
 
     .about_columns {
-        margin-top: 10vh;
-        width: 80%;
+        display: block;
+        margin-top: 35vw;
     }
 
     .about_column {
         width: 100%;
     }
-    
-    #about_img_container {
-        text-align: center;
-        height: 80vw;
-        min-width: 80vw;
-    }
 
     #about_img {
-        width: 80vw;
-        margin-bottom: 1vh;
+        width: 90vw;
+        margin-bottom: 5vw;
     }
 
     #about_blurb {
