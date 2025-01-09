@@ -1805,27 +1805,6 @@ footer > a {
         margin-bottom: 5vh;
     }
 
-    .column {
-        width: 0%;
-        margin: .5%;
-        margin-top: 0;
-        margin-bottom: 0;
-    }
-
-    #col2 {
-        margin-top: 0;
-    }
-
-    .gallery_link {
-        width: 80vw;
-        height: 45vw;
-    }
-
-    .gallery_item {
-        width: 80vw;
-        height: 42vh;
-    }
-
     .down_arrow {
         display: none;
     }
@@ -1834,60 +1813,28 @@ footer > a {
         width: 80vw;
     }
 
-    .gallery_item_title {
-        display: none;
-    }
-    
-    .larger_item{
-        height: 90vw;
-        margin-bottom: 2vh;
-    }
-
-    .larger_link {
-        margin-top: 0;
-        height: 90vw;
-        margin-bottom: 1.5vh;
-    }
-
-    #uni_thumbnail {
-        width: 80vw;
-        height: 45vw;
+    #gallery {
         display: block;
-        margin-top: 0;
     }
 
-    #uni {
+    .gallery_link {
+        width: 80vw;
+        height: auto;
+    }
+
+    .thumbnail_container {
         height: 45vw;
+        margin-bottom: 3vw;
     }
 
-    #uni_link {
-        margin-top: 0;
-        margin-bottom: 0vh;
-    }
-
-    #vinyl_cup_link {
-        margin-top: 0;
-        margin-top: 0vh;
-    }
-
-    #vinyl_cup {
-        margin-top: 2%;
-    }
-
-    #lyric_video {
-        margin-top: 2%;
-    }
-
-    #lyric_video_link {
-        height: 41vh;
+    #hallowtyde_thumbnail {
+        height: 92vw;
     }
 
     #still_lyric_video_thumbnail {
-        width: 80vw;
-        height: 90vw;
+        height: 92vw;
     }
-    
-    
+
     .flex_gallery {
         margin-top: 3vw;
         display: flex;
