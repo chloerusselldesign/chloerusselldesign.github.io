@@ -317,7 +317,7 @@ h1 {
 }
 
 #animation_container {
-    width: 40vw;
+    width: 30vw;
     min-width: 200px;
     margin-bottom: 5vh;
     margin-top: 8vw;
@@ -677,8 +677,8 @@ p.bolder {
 }
 
 .gallery_item_title > h3 {
-    line-height: 150%;
-    margin-bottom: 0;
+    line-height: 100%;
+    margin-bottom: .5vw;
 }
 
 .gallery_item_title > h5 {
@@ -704,6 +704,16 @@ p.bolder {
 
 .larger_title > h3 {
     margin-top: 10vw;
+}
+
+#registration_link {
+    grid-row: 1;
+    grid-column: 3;
+}
+
+#registration_thumbnail {
+    background-image: url("images/portfolio images/registration_system/registration_thumbnail.png");
+    background-size: cover;
 }
 
 #eyenamo_thumbnail {
@@ -743,7 +753,7 @@ p.bolder {
 
 #vinyl_cup_link {
     grid-row: 1;
-    grid-column: 1;
+    grid-column: 3;
 }
 
 #uni_link {
@@ -797,7 +807,7 @@ p.bolder {
 }
 
 #about_img {
-    width: 26vw;
+    width: 24vw;
     animation: rotation_animation_2 1s ease;
 }
 
@@ -860,8 +870,8 @@ p.bolder {
 }
 
 .dot {
-    height: 3vh;
-    width: 3vh;
+    height: 4vh;
+    width: 4vh;
     border: 4px solid #EF2B5A;
     border-radius: 50px;
     display: inline-block;
@@ -903,7 +913,7 @@ p.bolder {
 }
 
 .tutorial_message_container {
-    margin: 2vw 10vw 0vw 10vw;
+    margin: 2vw 10vw 10vw 10vw;
     height: 15vw;
     border: 4px #F6873A solid;
     border-radius: 400px;
@@ -911,7 +921,7 @@ p.bolder {
 
 .tutorial_text {
     color:#06135E;
-    font-size: 16pt;
+    font-size: 1.3vw;
     font-weight: 200;
     margin-top: 0vw;
     width: 67vw;
@@ -1213,6 +1223,102 @@ footer > a {
     color: #56F4B8;
 }
 
+.registration_page_body {
+    background-color: #E5E1E6;
+    padding-top: 5%;
+    font-family: "proxima-nova", sans-serif;
+}
+
+.purple_box {
+    background-color: #500778;
+    color: white;
+    border-radius: 12px;
+    margin: 20%;
+    margin-top: 5%;
+    padding: 4vw;
+    padding-bottom: 6vw;
+}
+
+.purple_box > h3 {
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 700;
+    font-size: 24pt;
+    font-style: normal;
+    line-height: 100%;
+    margin-top: 0;
+    margin-bottom: 1vw;
+}
+
+.purple_box > p {
+    margin-left: 3vw;
+    margin-bottom: 1vw;
+    margin-top: 0;
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 400;
+    font-size: 14pt;
+}
+
+.registration_button {
+    background-color: white;
+    border: none;
+    color: #500778;
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 600;
+    font-size: 18pt;
+    border-radius: 6px;
+    float: right;
+    padding: .3vw 1vw;
+    margin: 0vw 0vw 2vw 2vw;
+}
+
+.registration_button:hover {
+    background-color: #AC4FC6;
+}
+
+.registration_info_section {
+    margin: 0% 10% 5% 10%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.purple_square {
+    background-color: #500778;
+    border-radius: 12pt;
+    width: 15vw;
+    height: 15vw;
+    padding: 2vw;
+    color: white;
+    font-family: "proxima-nova", sans-serif;
+}
+
+.purple_square > h5 {
+    margin-top: 0;
+    font-size: 1.5vw;
+    line-height: 120%;
+    margin-bottom: 1vw;
+}
+
+.purple_square > p {
+    font-weight: 500;
+    font-size: 1.1vw;
+    margin-top: 0;
+}
+
+.info_container > h3 {
+    margin-left: 10%;
+    font-weight: 700;
+    font-size: 3vw;
+    color:#2E1A47;
+    margin-bottom: 0;
+}
+
+.info_container > h6 {
+    color: #2E1A47;
+    margin: 0 10% 2% 10%;
+    font-weight: 500;
+    font-size: 14pt;
+}
+
 .full_project_image {
     width: 70vw;
     margin-left: 15vw;
@@ -1431,9 +1537,6 @@ footer > a {
 
 @media screen and (max-device-width: 480px) and (orientation: portrait){
 
-    .desktop_only {
-        display: none;
-    }
 
     #body {
         margin: 0;
@@ -1572,7 +1675,7 @@ footer > a {
     #landing_text > p {
         margin-top: 12%;
         line-height: 160%;
-        font-size: 12pt;
+        font-size: 14pt;
         width: 85%;
     }
 
@@ -1856,21 +1959,21 @@ footer > a {
     .about_columns {
         display: block;
         margin-top: 35vw;
+        width: 80vw;
     }
 
     .about_column {
-        width: 100%;
+        width: 80vw;
     }
 
     #about_img {
-        width: 90vw;
+        width: 80vw;
         margin-bottom: 5vw;
     }
 
     #about_blurb {
         margin-top: 0vh;
-        margin-left: 10%;
-        width: 100%;
+        width: 80vw;
         height: 55vh;
     }
 
@@ -1910,49 +2013,6 @@ footer > a {
         padding: 3vw;
     }
 
-    #tutorial_message_section {
-        margin-bottom: 5vw;
-        position: relative;
-        height: 80vh;
-        display: flex;
-    }
-
-    .tutorial_message_container {
-        width: 60vw;
-        margin: 10%;
-        position: absolute;
-        height: 55vh;
-        padding: 10vw;
-        padding-top: 8vw;
-        padding-bottom: 4vw;
-        border: 7px #F6873A solid;
-        border-radius: 400px;
-    }
-
-    .tutorial_text_scroll {
-        height: 30vh;
-        margin-top: 17vh;
-    }
-
-    .did_you_know {
-        font-size: 7vw;
-    }
-
-    .tutorial_text {
-        font-size: 4vw;
-    }
-
-    .tutorial_indicator {
-        text-align: center;
-        margin-top: 40vh;
-        display: flex;
-        position: relative;
-        z-index: 10;
-    }
-
-    .dot {
-        border-width: 7px;
-    }
 
     #resume_header {
         margin-top: 32%;
@@ -1966,8 +2026,8 @@ footer > a {
     .download_link {
         display: block;
         margin-left: 0;
-        margin-top: 9%;
-        margin-bottom: 5%;
+        margin-top: 5%;
+        margin-bottom: 10%;
         padding: 4%;
         position: relative;
         float: left;
@@ -1979,6 +2039,16 @@ footer > a {
         margin: 10%;
     }
 
+    #resume_top {
+        margin-bottom: -2vh;
+    }
+
+    #resume_top > p {
+        line-height: 120%;
+        margin-bottom: 0;
+        margin-top: 3vh;
+    }
+
     #resume > h3 {
         line-height: 100%;
         font-size: 28pt;
@@ -1987,7 +2057,11 @@ footer > a {
     }
 
     #resume > p {
-        font-size: 16pt;
+        font-size: 14pt;
+    }
+
+    .resume_section {
+        margin-bottom: 0;
     }
 
     .resume_section > h4 {
@@ -1995,16 +2069,17 @@ footer > a {
         margin-top: 20%;
         font-size: 24pt;
     }
-    p.bolder {
-        margin-top: 6%;
-        margin-bottom: 3%;
-        font-size: 16pt;
-    }
 
     .resume_section > p {
         margin-top: 3%;
-        font-size: 16pt;
+        font-size: 14pt;
         margin-bottom: 6%;
+    }
+
+    p.bolder {
+        margin-top: 6%;
+        margin-bottom: 0;
+        font-size: 16pt;
     }
 
     .desktop_only {
