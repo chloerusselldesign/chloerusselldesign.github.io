@@ -1205,6 +1205,10 @@ footer > a {
     opacity: 100%;
 }
 
+.limelight_page_body {
+    background-color: white;
+}
+
 .eyenamo_page_body {
     background-color: #121D51;
     padding-top: 2%;
@@ -1317,6 +1321,29 @@ footer > a {
     margin: 0 10% 2% 10%;
     font-weight: 500;
     font-size: 14pt;
+}
+
+.long {
+    margin: 2vw 10vw;
+    padding: 3vw;
+}
+
+.registration_list {
+    display: grid;
+    margin-top: 0;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: minmax(auto, 6vw);
+    grid-gap: 0vw 5vw;
+}
+
+.long > ul > li > h6 {
+    font-size: 1.3vw;
+    font-weight: 500;
+    margin: 0;
+}
+
+.video_container {
+    margin: 2vw 10vw;
 }
 
 .full_project_image {
