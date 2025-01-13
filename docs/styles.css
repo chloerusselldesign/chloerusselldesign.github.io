@@ -679,6 +679,7 @@ p.bolder {
 .gallery_item_title > h3 {
     line-height: 100%;
     margin-bottom: .5vw;
+    padding-top: 1vw;
 }
 
 .gallery_item_title > h5 {
@@ -752,13 +753,17 @@ p.bolder {
 }
 
 #vinyl_cup_link {
-    grid-row: 1;
+    grid-row: 2;
     grid-column: 3;
 }
 
 #uni_link {
-    grid-row: 2;
+    grid-row: 3;
     grid-column: 3;
+}
+
+#registration_title > h3 {
+    padding-top: 0;
 }
 
 #about_header {
@@ -1229,7 +1234,6 @@ footer > a {
 
 .registration_page_body {
     background-color: #E5E1E6;
-    padding-top: 5%;
     font-family: "proxima-nova", sans-serif;
 }
 
@@ -1237,8 +1241,6 @@ footer > a {
     background-color: #500778;
     color: white;
     border-radius: 12px;
-    margin: 20%;
-    margin-top: 5%;
     padding: 4vw;
     padding-bottom: 6vw;
 }
@@ -1262,6 +1264,13 @@ footer > a {
     font-size: 14pt;
 }
 
+.registration_intro_section {
+    background-image: url("images/portfolio images/registration_system/class_background.png");
+    background-size: cover;
+    width: 60vw;
+    padding: 10% 20%;
+}
+
 .registration_button {
     background-color: white;
     border: none;
@@ -1278,6 +1287,7 @@ footer > a {
 .registration_button:hover {
     background-color: #AC4FC6;
 }
+
 
 .registration_info_section {
     margin: 0% 10% 5% 10%;
@@ -1336,6 +1346,11 @@ footer > a {
     grid-gap: 0vw 5vw;
 }
 
+.registration_arrow {
+    width: .75vw;
+    margin-left: 2vw;
+}
+
 .long > ul > li > h6 {
     font-size: 1.3vw;
     font-weight: 500;
@@ -1344,6 +1359,17 @@ footer > a {
 
 .video_container {
     margin: 2vw 10vw;
+}
+
+.registration_proto_link > h3 {
+    font-size: 2vw;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 5vw;
+}
+
+.registration_proto_link > h3 > a {
+    color: #AC4FC6;
 }
 
 .full_project_image {
@@ -1970,6 +1996,81 @@ footer > a {
     .full_project_image {
         margin: 3vw;
         width: 92vw;
+    }
+
+    .registration_intro_section {
+        padding: 5vw;
+        padding-top: 10vh;
+        padding-bottom: 20vh;
+        width: 90vw;
+    }
+
+    .purple_box {
+        padding: 10vw;
+        padding-bottom: 24vw;
+    }
+
+    .purple_box > h3 {
+        margin-bottom: 3vw;
+    }
+
+    .registration_button {
+        margin-top: 3vw;
+        padding: 1vw 3vw;
+    }
+
+    .registration_arrow {
+        width: 2.5vw;
+        margin-left: 8vw;
+    }
+
+    .registration_info_section {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 2.5vw;
+    }
+
+    .purple_square {
+        width: 70vw;
+        height: 70vw;
+        padding: 5vw;
+    }
+
+    .purple_square > h5 {
+        font-size: 6vw;
+        margin-bottom: 4vw;
+    }
+
+    .purple_square > p {
+        font-size: 16pt;
+    }
+
+    .info_container > h3 {
+        font-size: 8vw;
+        line-height: 120%;
+        margin-bottom: 2vw;
+    }
+
+    .info_container > h6 {
+        margin-bottom: 4vw;
+    }
+
+    .long {
+        padding: 8vw;
+    }
+
+    .registration_list {
+        display: block;
+    }
+
+    .long > ul > li > h6 {
+        font-size: 16pt;
+    }
+
+    .registration_proto_link {
+        margin-bottom: 0;
+        padding-top: 5vw;
+        padding-bottom: 10vw;
     }
 
     .flex_gallery {
