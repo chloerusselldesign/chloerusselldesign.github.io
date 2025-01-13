@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<head>
+    <title>chloe russell - course registration system</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://use.typekit.net/dhm2zpc.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width" />
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
+</head>
+<body>
+    <nav class="no_motion sticky">
+        <a href="index.html" class="click_cursor"><img id="nav_logo" src="images/chloe_logo.png"></a>
+        <div id="nav_space"></div>
+        <ul id="nav_list">
+            <li><a id="nav_button" href="portfolio.html" class="click_cursor">work</a></li>
+            <li><a id="nav_button" href="resume.html" class="click_cursor">resume</a></li>
+            <li><a id="nav_button" href="about.html" class="click_cursor">about</a></li>
+        </ul>
+        <a class="mobile_only"><img src="images/hamburger_menu.png" id="hamburger_icon"></a>
+    </nav>
+    <div class="registration_page_body">
+        <div class="registration_intro_section">
+            <div class="purple_box">
+                <h3>How can university course registration be improved?</h4>
+                <p>
+                    Every term, college students are saddled with the daunting task of registering for the next semester. Outdated and unintuitive software tools make this task even more difficult.
+                </p>
+                <p>
+                    Over the course of a semester, two colleauges and I set out to diagnose the problems with our own university's course registration system and prototype a solution to present to the advising office and the office of the registrar.
+                </p>
+                <button class="registration_button click_cursor" onclick="scrollToStart()">let's get started! <img src="images/portfolio images/registration_system/registratiom_system_arrow.png" class="registration_arrow"></button>
+            </div>
+        </div>
+        <img src="images/portfolio images/registration_system/registration_mockup_image.png" class="full_project_image">
+        <div class="registration_info_section" id = "registration_start">
+            <div class="purple_square">
+                <h5>
+                    Research and Modeling
+                </h5>
+                <p>
+                    In order to improve the old system, we have to know what about it works and what doesn't. The best way to do this is to interview its current users - students at UNI.
+                </p>
+            </div>
+            <div class="purple_square">
+                <h5>
+                    Information Architecture
+                </h5>
+                <p>
+                    We must consider what information and functionality users need to accomplish the most common tasks and bring that to the front.
+                </p>
+            </div>
+            <div class="purple_square">
+                <h5>
+                    Wireframing and Testing
+                </h5>
+                <p>
+                    After a functioning Figma prototype is developed, we have to test it with real users so we can make any neccessary changes.
+                </p>
+            </div>
+            <div class="purple_square">
+                <h5>
+                    Final Presentation
+                </h5>
+                <p>
+                    Selling this concept to university administrators requires convincing them not only that our new tool is better, but that the old one is actively detrimental.
+                </p>
+            </div>
+        </div>
+        <div class="info_container">
+            <h3> 01. Research and Modeling </h3>
+            <h6> 
+                After conducting and evaluating interviews with UNI students, we identified four primary pain points with the current course registration system. But don't take our word for it - hear it in the words of the users.
+            </h6>
+            <div class="registration_info_section">
+                <div class="purple_square">
+                    <h5>Information Overload</h5>
+                    <p>
+                        "There's so much stuff on MyUniverse, and I don't even use half of it!  I don't know what some of it even is."
+                    </p>
+                </div>
+                <div class="purple_square">
+                    <h5>Academic Confusion</h5>
+                    <p>
+                        "It was hard to find the classes I needed to take for my major, what the class description was, or if I could even get into the class."
+                    </p>
+                </div>
+                <div class="purple_square">
+                    <h5>Difficult Navigation</h5>
+                    <p>
+                        "MyUniverse was a huge issue for me, because… I always needed to have two tabs open - one to look at my advisor report and the other to look at my shopping cart."
+                    </p>
+                </div>
+                <div class="purple_square">
+                    <h5>Emotional Burnout</h5>
+                    <p>
+                        "I just got really lost, and I ended up almost not wanting to register for classes for that following semester."
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="images/portfolio images/registration_system/registration_persona.png" class="full_project_image">
+        <div class="info_container">
+            <h3> 02. Information Architecture </h3>
+            <h6> 
+                Focusing on key touchpoints in the course registration process, we identified what information and functionality would be required for every step in the process and what information could be removed.
+            </h6>
+            <div class="purple_box long">
+                <h3>Finding Classes</h3>
+                <ul class="registration_list">
+                <li>
+                    <h6>Required courses for major(s), minor(s), and general education credits</h6>
+                </li>
+                <li>
+                    <h6>Credits needed to complete graduation requirements in major/minor/general education</h6>
+                </li>
+                <li>
+                    <h6>Recommended courses based on past course data from the user and other students</h6>
+                </li>
+                <li>
+                    <h6>Prerequisite information - what courses is the user eligible to take?</h6>
+                </li>
+                </ul>
+            </div>
+            <div class="purple_box long">
+                <h3>Viewing Course Information</h3>
+                <ul class="registration_list">
+                <li>
+                    <h6>Instructors(s), section(s), course name, and course number</h6>
+                </li>
+                <li>
+                    <h6>Prerequisites and whether or not they are fulfilled</h6>
+                </li>
+                <li>
+                    <h6>Rich descriptions and sample syllabuses that let students know what to expect from a class</h6>
+                </li>
+                </ul>
+            </div>
+            <div class="purple_box long">
+                <h3>Monitoring Progress Towards Degree</h3>
+                <ul class="registration_list">
+                <li>
+                    <h6>Courses the student will be taking in the future, viewed by the semester in a 4-year plan format</h6>
+                </li>
+                <li>
+                    <h6>Past courses the student has already taken</h6>
+                </li>
+                <li>
+                    <h6>Four-year plan changes caused by changing degree programs or moving classes between semesters</h6>
+                </li>
+                <li>
+                    <h6>Number of credits completed and number of credits left for major(s), minor(s), and general education.</h6>
+                </li>
+                </ul>
+            </div>
+            <div class="purple_box long">
+                <h3>Building Class Schedule</h3>
+                <ul class="registration_list">
+                <li>
+                    <h6>Simple, weekly calendar view to help the student visualize their prospective course schedule</h6>
+                </li>
+                <li>
+                    <h6>All possible sections for selected courses</h6>
+                </li>
+                <li>
+                    <h6>View required courses alongside class schedule to make sure nothing is left out</h6>
+                </li>
+                <li>
+                    <h6>Number of credits currently selected vs required for full-time enrollment</h6>
+                </li>
+                </ul>
+            </div>
+        </div>
+        <div class="info_container">
+            <h3> 03. Wireframing and Testing </h3>
+            <h6> 
+                Once we knew what information is most important and when the user will need it, we started building a functioning prototype. Watch a video walkthrough of our final prototype!
+            </h6>
+            <div class="video_container">
+                <video width="100%" controls>
+                    <source src="images/portfolio images/registration_system/registration_video.mp4">
+                </video>
+            </div>
+            <h6>
+                To refine our prototype, we had to consider how we addressed the problems defined during our research stage.
+            </h6>
+        </div>
+        <div class="registration_info_section">
+            <div class="purple_square">
+                <h5>
+                    Information Overload
+                </h5>
+                <p>
+                    The new system only shows users what they need to see for the current step in the process. Showing only the vital data and nesting more detailed information prevents overwhelming the user.
+                </p>
+            </div>
+            <div class="purple_square">
+                <h5>
+                    Academic Confusion
+                </h5>
+                <p>
+                    Restructuring the system to a step-by-step process that starts with ensuring the student gets into required classes prevents any errors that may delay graduation.
+                </p>
+            </div>
+            <div class="purple_square">
+                <h5>
+                    Difficult Navigation
+                </h5>
+                <p>
+                    By limiting the system to only three major screens and minimizing visible information, navigation is made much simpler.
+                </p>
+            </div>
+            <div class="purple_square">
+                <h5>
+                    Emotional Burnout
+                </h5>
+                <p>
+                    The new simple, quick registration process eliminates the possibility of critical errors while guiding and reassuring the user along the way.
+                </p>
+            </div>
+        </div>
+        <div class="info_container">
+            <h3> 04. Final Presentation </h3>
+            <h6> 
+                To sell our final prototype to university administration, we compared our new system to the old one.
+            </h6>
+        </div>
+        <img src="images/portfolio images/registration_system/registration_comparison_2.png" class="full_project_image">
+        <img src="images/portfolio images/registration_system/registration_comparison_1.png" class="full_project_image">
+        <img src="images/portfolio images/registration_system/registration_comparison_3.png" class="full_project_image">
+        <div class="info_container registration_proto_link">
+            <h3> To view the final prototype on Figma, <a href="https://www.figma.com/proto/Set40e38QdqRjOPjSaLnoF/prototype-time?page-id=0%3A1&node-id=332-2344&viewport=434%2C542%2C0.03&t=SWQck9JgcynvKFDy-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=332%3A2344" class="click_cursor">click here.</a> </h3>
+        </div>
+        <footer>
+            <div id="footer_line_one">
+            <a href="index.html" id="footer_logo_link" class="click_cursor"> <img id="footer_logo" src="images/primaryLogo_white.png"> </a>
+            <div class="divider" id="footer_div"></div>
+            </div>
+            <div id="footer_nav_container">
+                <div id="footer_div_2" class="divider"></div>
+                <ul id="footer_nav">
+                    <li><a id="footer_button" href="portfolio.html" class="click_cursor">work</a></li>
+                    <li><a id="footer_button" href="resume.html" class="click_cursor">resume</a></li>
+                    <li><a id="footer_button" href="contact.html" class="click_cursor">contact</a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+    <div id="hamburger_menu" class="mobile_only">
+        <div class="hamburger_nav">
+            <img id="back_arrow" src="images/back_arrow-01.png">
+            <ul class="nav_button">
+                <li class="nav_button"><a href="index.html">home</a></li>
+                <li class="nav_button"><a href="portfolio.html">work</a></li>
+                <li class="nav_button"><a href="resume.html">resume</a></li>
+                <li class="nav_button"><a href="about.html">about</a></li>
+            </ul>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+    <script>
+        function scrollToStart () {
+        let registrationStart = document.getElementById("registration_start");
+        registrationStart.scrollIntoView({ behavior: "smooth", block: "center", inline: "nearest" });
+        }
+    </script>
+</body>
