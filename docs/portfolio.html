@@ -52,13 +52,6 @@
                     <h5>brand concept, visual identity, and website design</h5>
                 </div>
         </a>
-        <a href="uni_project_page.html" class="gallery_link click_cursor" id="uni_link">
-                <div class="thumbnail_container" id="uni_thumbnail"></div>
-                <div class="gallery_item_title desktop_only" id="uni_title">
-                    <h3>UNI</h3>
-                    <h5>print and digital graphics</h5>
-                </div>
-        </a>
         <a href="vinyl_cup_project_page.html" class="gallery_link click_cursor" id="vinyl_cup_link">
                 <div class="thumbnail_container" id="vinyl_cup_thumbnail"></div>
                 <div class="gallery_item_title desktop_only" id="vinyl_cup_title">
@@ -78,6 +71,13 @@
             <div class="gallery_item_title desktop_only" id="registration_title">
                 <h3>registration system</h3>
                 <h5>UI/UX</h5>
+            </div>
+        </a>
+        <a href="limelight_project_page.html" class="gallery_link click_cursor" id="limelight_link">
+            <div class="thumbnail_container" id="limelight_thumbnail"></div>
+            <div class="gallery_item_title desktop_only" id="limelight_title">
+                <h3>limelight</h3>
+                <h5>visual identity and graphics</h5>
             </div>
         </a>
     </div>
@@ -107,6 +107,15 @@
         </div>
     </div>
     <script>
+        var animation = bodymovin.loadAnimation({
+        container: document.getElementById('limelight_thumbnail'),
+        path: 'limelight_thumbnail_animation.json',
+        renderer: 'svg',
+        loop: true,
+        autoplay: true,
+        name: "Limelight Animation",
+        });
+
         var animation = bodymovin.loadAnimation({
         container: document.getElementById('cup_of_joe_thumbnail'),
         path: 'cup_of_joe_thumbnail_animation.json',

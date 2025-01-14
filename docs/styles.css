@@ -1214,6 +1214,82 @@ footer > a {
     background-color: white;
 }
 
+.limelight_body_2 {
+    background-color: #000230;
+}
+
+.limelight_white_text {
+    padding-top: 10vw;
+    color: white;
+    margin: 0vw 20vw;
+    padding-bottom: 10vw;
+}
+
+.limelight_white_text > h6 {
+    font-family: 'montserrat', sans serif;
+    font-size: 1.4vw;
+    font-weight: 600;
+    line-height: 170%;
+}
+
+.left {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-right: 0;
+    padding-top: 0;
+    margin-left: 15vw;
+    width: 85vw;
+}
+
+.left > h6 {
+    width: 40vw;
+    margin-top: 13vw;
+    margin-right: 5vw;
+}
+
+.pringle_shape {
+    width: 40vw;
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.banner {
+    width: 80vw;
+}
+
+.full_banner {
+    width: 95vw;
+}
+
+.fullest_banner {
+    width: 100vw;
+}
+
+.black_and_white_gradient {
+    width: 100vw;
+    height: 20vw;
+    background-image: linear-gradient(white, #000230);
+}
+
+.limelight_text_right {
+    margin-top: 2vw;
+    width: 40vw;
+    color: white;
+    background-color: #31006F;
+    padding: 4vw;
+    padding-left: 6vw;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 500;
+    line-height: 150%;
+    border-radius: 500px 0px 0px 500px;
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.limelight_section {
+    margin-bottom: 2.5vw;
+}
+
 .eyenamo_page_body {
     background-color: #121D51;
     padding-top: 2%;
@@ -2071,6 +2147,48 @@ footer > a {
         margin-bottom: 0;
         padding-top: 5vw;
         padding-bottom: 10vw;
+    }
+
+    .limelight_page_body {
+        padding-top: 10vh;
+    }
+
+    .banner {
+        width: 90vw;
+    }
+
+    .limelight_text_right {
+        margin-top: 15vw;
+        width: 60vw;
+        padding: 10vw;
+        padding-left: 25vw;
+        margin-bottom: 20vh;
+    }
+
+    .black_and_white_gradient {
+        height: 100vh;
+    }
+
+    .limelight_white_text {
+        width: 80vw;
+        margin-left: 12vw;
+    }
+
+    .limelight_white_text > h6 {
+        font-size: 4vw;
+    }
+
+    .left {
+        display: block;
+        width: 80vw;
+    }
+
+    .left > h6 {
+        width: 80vw;
+    }
+
+    .pringle_shape {
+        width: 88vw;
     }
 
     .flex_gallery {
