@@ -742,9 +742,8 @@ p.bolder {
 }
 
 #still_lyric_video_thumbnail {
-    background-image: url("images/portfolio images/lyric video/lyric_video_thumbnail_still.png");
+    background-image: url("images/portfolio images/lyric video/lyric_video_thumbnail_v2.png");
     background-size: cover;
-    height: 30vw;
 }
 
 #introduction_link {
