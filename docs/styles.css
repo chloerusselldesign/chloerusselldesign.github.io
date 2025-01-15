@@ -1290,6 +1290,65 @@ footer > a {
     margin-bottom: 2.5vw;
 }
 
+.vinyl_cup_body {
+    background-color: #19595E;
+}
+
+.vinyl_text {
+    font-family: "Lexend", serif;
+    font-weight: 400;
+    color: #ECDFD4;
+}
+
+.vinyl_text > a {
+    color: #F49F50;
+}
+
+p.vinyl_text {
+    margin-top: 0;
+}
+
+.beige_vinyl_cup_section {
+    background-color: #ECDFD4;
+    position: relative;
+    z-index: 2;
+    margin-top: -5vw;
+    margin-bottom: -10vw;
+}
+
+.vinyl_link {
+    text-align: center;
+    font-size: 2vw;
+    margin: 10vw;
+}
+
+.vinyl_cup_section {
+    display: grid;
+    grid-template-columns: 2fr 2fr 3fr;
+    margin-left: 10vw;
+    margin-top: 10vw;
+    grid-gap: 5vw;
+    padding-bottom: 10vw;
+}
+
+#wavy_shape {
+    margin-bottom: -3vw;
+    z-index: 2;
+    position: relative;
+}
+
+#wavy_shape2 {
+    margin-top: -3vw;
+}
+
+#record1 {
+    width: 50vw;
+    position: absolute;
+    right: -15vw;
+    z-index: 1;
+    animation: 5s constant_spin infinite linear;
+}
+
 .eyenamo_page_body {
     background-color: #121D51;
     padding-top: 2%;
