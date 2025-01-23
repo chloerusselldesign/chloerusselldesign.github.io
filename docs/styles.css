@@ -722,15 +722,6 @@ p.bolder {
     background-size: cover;
 }
 
-#hallowtyde_thumbnail {
-    height: 30vw;
-}
-
-#hallowtyde_link {
-    grid-row: 1 / 3;
-    grid-column: 2;
-}
-
 #uni_thumbnail {
     background-image: url("images/portfolio images/uni/uni_thumbnail.png");
     background-size: cover;
@@ -1348,6 +1339,75 @@ p.vinyl_text {
     animation: 5s constant_spin infinite linear;
 }
 
+.hallowtyde_project_body {
+    background: #2F1325;
+    color: #F9D776;
+}
+
+.hallowtyde_text {
+    margin: auto;
+    margin-top: 3vw;
+    width: 60vw;
+    text-align: center;
+    font-family: "athelas", serif;
+}
+
+.hallowtyde_text > h2 {
+    font-weight: 500;
+    padding-top: 2vw;
+    font-size: 2vw;
+}
+
+.hallowtyde_text > p {
+    font-size: 1.3vw;
+    color: white;
+    font-weight: 300;
+}
+
+.hallowtyde_intro_section {
+    padding-bottom: 5vw;
+}
+
+.coj_project_body {
+    background-color: #4F281A;
+    font-family: "rukou", sans-serif;
+}
+
+.coj_intro_section {
+    background-image: url("images/portfolio images/cup of joe/coj_sign_mockup.png");
+    background-size: 100vw;
+    background-position: top -10vh;
+    width: 100vw;
+    padding-top: 8vw;
+    height: 86vh;
+}
+
+.coj_intro_text {
+    position: relative;
+    opacity: 1;
+    width: 22vw;
+    margin-right: 5vw;
+    margin-left: auto;
+    border-radius: 50px;
+    padding: 5vw;
+    background-color: #F7B3CB;
+}
+
+.coj_intro_text > h4 {
+    font-size: 3vw;
+    font-weight: 500;
+    line-height: 100%;
+    margin: 0;
+    margin-bottom: .7vw;
+}
+
+.coj_intro_text > p {
+    font-family: "anona", sans-serif;
+    margin: 0;
+    font-weight: 300;
+    font-size: 1.1vw
+}
+
 .eyenamo_page_body {
     background-color: #121D51;
     padding-top: 2%;
@@ -1364,6 +1424,15 @@ p.vinyl_text {
 
 .eyenamo_page_text > a{
     color: #56F4B8;
+}
+
+.lyric_project_body {
+    background-color: #8C1B42;
+}
+
+.eighty_percent_video {
+    width: 70vw;
+    margin: 2vw 15vw 10vw 15vw;
 }
 
 .registration_page_body {
@@ -1722,7 +1791,7 @@ p.vinyl_text {
 
 /* mobile styling */
 
-@media screen and (max-device-width: 480px) and (orientation: portrait){
+@media screen and (max-device-width: 640px) and (orientation: portrait){
 
 
     #body {
@@ -2117,14 +2186,6 @@ p.vinyl_text {
     .thumbnail_container {
         height: 45vw;
         margin-bottom: 3vw;
-    }
-
-    #hallowtyde_thumbnail {
-        height: 92vw;
-    }
-
-    #still_lyric_video_thumbnail {
-        height: 92vw;
     }
 
     .full_project_image {
@@ -2617,6 +2678,7 @@ p.vinyl_text {
 
     .doodles_line {
         width: 800vw;
+        overflow-x: hidden;
         animation: horizontal_scroll_mobile 14s linear infinite
     }
 
