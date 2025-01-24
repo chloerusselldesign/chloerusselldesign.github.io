@@ -2268,6 +2268,24 @@ p.vinyl_text {
         padding-bottom: 10vw;
     }
 
+    .hallowtyde_intro_section {
+        padding-top: 12vh;
+    }
+    
+    .hallowtyde_text {
+        margin-top: 15vw;
+        width: 80vw;
+        margin-bottom: 15vw;
+    }
+    
+    .hallowtyde_text > h2 {
+        font-size: 8vw;
+    }
+    
+    .hallowtyde_text > p {
+        font-size: 16pt;
+    }
+
     .limelight_page_body {
         padding-top: 10vh;
     }
