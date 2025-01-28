@@ -1422,7 +1422,7 @@ p.vinyl_text {
     grid-template-columns: 1fr 1fr 1fr;
     margin: 0vw 10vw;
     grid-gap: 5vw;
-    margin-bottom: 5vw;
+    margin-bottom: 10vw;
 }
 
 
@@ -1454,14 +1454,21 @@ p.vinyl_text {
     background-size: cover;
 }
 
-.coj_button {
+.coj_link {
     text-decoration: none;
     color:#4F281A;
     background-color: #ECDFD4;
-    padding: 5vw;
+    padding: 3vw;
+    border-radius: 100px;
     font-size: 2vw;
+}
+
+.coj_link:hover {
+    background-color: #F7B3CB;
+}
+
+.coj_link_container {
     text-align: center;
-    margin: auto;
 }
 
 .eyenamo_page_body {
@@ -1645,6 +1652,7 @@ p.vinyl_text {
 
 footer {
     font-family: "greycliff-cf", sans-serif;
+    margin-top: 10vw;
 }
 
 @keyframes color_shift{
@@ -2344,6 +2352,56 @@ footer {
     
     .hallowtyde_text > p {
         font-size: 16pt;
+    }
+
+    .coj_intro_section {
+        display: block;
+    }
+
+    .coj_intro_image {
+        margin-top: 13vh;
+        height: 34vh;
+        margin-bottom: 1vh;
+    }
+
+    .coj_intro_text > h4 {
+        font-size: 13vw;
+    }
+
+    .coj_intro_text > p {
+        font-size: 4.2vw;
+    }
+
+    .coj_image {
+        width: 90vw;
+        border-radius: 30px;
+        margin: 3vw 5vw;
+    }
+
+    .coj_link_container {
+        margin-bottom: 10vw;
+        margin-top: 4vw;
+    }
+
+    .coj_project_body {
+        padding-bottom: 20vw;
+    }
+
+    .coj_link {
+        width: 60vw;
+        font-size: 8vw;
+        padding: 6vw;
+        margin-bottom: 10vw;
+    }
+
+    .coj_grid_section {
+        margin: 0vw 5vw;
+        margin-bottom: 10vw;
+    }
+
+    .coj_grid_image {
+        border-radius: 25px;
+        height: 18vh;
     }
 
     .limelight_page_body {
