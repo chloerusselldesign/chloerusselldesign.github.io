@@ -2354,6 +2354,15 @@ footer {
         font-size: 16pt;
     }
 
+    .vinyl_cup_body {
+        margin-top: 13vh;
+        overflow-x: hidden;
+    }
+
+    .vinyl_cup_section {
+        display: block;
+    }
+
     .coj_intro_section {
         display: block;
     }
